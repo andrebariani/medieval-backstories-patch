@@ -36,14 +36,14 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from guards.</baseDes
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BackstoryDef[defName="VBE_PirateKid"]/baseDesc</xpath>
                     <value>
-                        <baseDesc>[PAWN_nameDef] was kidnapped by pirates at a young age. [PAWN_possessive] small size allowed [PAWN_objective] to fit into tiny maintenance spaces on boarded ships to steal valuables. Coincidentally,  [PAWN_pronoun] also became quite adept at treating scurvy.</baseDesc>
+                        <baseDesc>[PAWN_nameDef] was kidnapped by pirates at a young age. [PAWN_possessive] small size allowed [PAWN_objective] to sneak into boarded ships to steal valuables. Coincidentally, [PAWN_pronoun] also became quite adept at treating scurvy.</baseDesc>
                     </value>
                 </li>
 
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BackstoryDef[defName="VBE_Marauder"]/baseDesc</xpath>
                     <value>
-                        <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] life as a fighter in a fleet of pirates until it dissolved from infighting. [PAWN_pronoun] saw many battles, but never even went close to any books.</baseDesc>
+                        <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] life as a fighter in a pirate ship until it dissolved from mutiny. [PAWN_pronoun] saw many battles, but never even went close to any books.</baseDesc>
                     </value>
                 </li>
 
