@@ -1,0 +1,11 @@
+<Manifest>
+	<identifier>GrassTypeFire.Medieval.BackstoriesPatch</identifier>
+	<version>1.0.0</version>
+	<!-- <dependencies>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</dependencies> -->
+	<loadAfter>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</loadAfter>
+	<showCrossPromotions>true</showCrossPromotions>
+</Manifest>

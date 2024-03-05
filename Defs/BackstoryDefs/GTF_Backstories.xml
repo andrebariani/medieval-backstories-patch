@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Wandering bard</title>
+    <defName>GTF_Wandering bard</defName>
+    <titleShort>Bard</titleShort>
+    <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Artistic</key><value>5</value></li>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+</Defs>

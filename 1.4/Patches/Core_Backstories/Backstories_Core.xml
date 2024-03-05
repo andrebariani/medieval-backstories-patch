@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BackstoryDef[
+					defName="MercenaryRecruit18" or
+					defName="ChildOfDrifters18" or
+					defName="Assassin20" or
+					defName="ColiseumFighter22" or
+					defName="TournamentFighter28" or
+					defName="PlagueDoctor31" or
+					defName="MercenaryRecruit36" or
+					defName="ApprenticeSmith37" or
+					defName="WanderingCrafter42" or
+					defName="Spy58" or
+					defName="Bodyguard58" or
+					defName="SelflessHunter61" or
+					defName="Bartender62" or
+					defName="Restorer70" or
+					defName="PitBrawler76" or
+					defName="ConArtist80"
+					]
+					/spawnCategories</xpath>
+				<value>
+					<li>Medieval</li>
+					<li>MedievalCommon</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[
+					defName="ChildOfDrifters18" or
+					defName="PlagueDoctor31" or
+					defName="Spy58" or
+					defName="WanderingCrafter42" or
+					defName="PlagueChild44" or
+					defName="Restorer70"
+					]
+					/shuffleable</xpath>
+				<value>
+					<shuffleable>True</shuffleable>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="Spy58"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] was trained by [PAWN_possessive] guild in infiltration and espionage. [PAWN_pronoun] learned to keep a cool head and to talk [PAWN_possessive] way out of tight situations. When talking didn't work, [PAWN_pronoun] was capable of more violent direct action.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeGlobal</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeMale</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeFemale</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="ColiseumCleaner54"]/baseDesc</xpath>
+				<value>
+					<baseDesc>During the wars, [PAWN_possessive] parents were captured and [PAWN_pronoun] was born into a life of slavery. Forced to clean coliseums after bloody battles for money. Watching, waiting, and learning. Coliseums were the only thing [PAWN_pronoun] ever knew.
+
+One night while cleaning the coliseum, [PAWN_possessive] family was murdered.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="PlagueChild44"]/baseDesc</xpath>
+				<value>
+					<baseDesc>Born on a kingdom wracked by plague, both of [PAWN_nameDef]'s parents were doctors.
+
+[PAWN_pronoun] experienced little social interaction. However, [PAWN_pronoun] gained a lot of medical experience assisting in treatments.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="PlagueDoctor31"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] provided medical care on multiple plague-wracked villages, always working under the Hippocratic oath. [PAWN_pronoun] improved conditions for those under quarantine while administering complex medical treatments and developing medicines.
+
+[PAWN_pronoun] never had time to enjoy a normal life outside of work.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="Bartender62"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] worked as a bartender in a seedy tavern. The job was one part drink-serving, one part diplomacy, and one part head-bashing.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="ApprenticeSmith37"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] grew up helping in [PAWN_possessive] father's smithy. They were some of the last smiths on the region that to use traditional smithing methods. They even collect some materials themselves.
+
+Sometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pronoun] forged.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="MercenaryRecruit18"]/baseDesc</xpath>
+				<value>
+					<baseDesc>Born to a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.
+
+At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="MercenaryRecruit18"]/skillGains</xpath>
+				<value>
+					<skillGains>
+						<li>
+							<key>Shooting</key>
+							<value>3</value>
+						</li>
+						<li>
+							<key>Melee</key>
+							<value>3</value>
+						</li>
+						<li>
+							<key>Crafting</key>
+							<value>3</value>
+						</li>
+					</skillGains>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

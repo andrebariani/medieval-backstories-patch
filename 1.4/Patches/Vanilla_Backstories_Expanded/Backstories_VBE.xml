@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Backstories Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/BackstoryDef[
+                        defName="VBE_Barber" or
+                        defName="VBE_OrphanThief" or
+                        defName="VBE_PirateKid" or
+                        defName="VBE_Marauder" or
+                        defName="VBE_StarvingArtist" or
+                        defName="VBE_DesertSurvivor"
+                        ]
+                        /spawnCategories</xpath>
+                    <value>
+                        <li>Medieval</li>
+                        <li>MedievalCommon</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_OrphanThief"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>When [PAWN_pronoun] was young, [PAWN_nameDef]'s parents were imprisoned for speaking out against the kingdom rulers. [PAWN_pronoun] was forced to steal food in order to survive, and soon became a capable thief. The experience left [PAWN_objective] unwilling to rely much on others.
+
+As a hobby, [PAWN_nameDef] began collecting helmets stolen from guards.</baseDesc>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_PirateKid"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>[PAWN_nameDef] was kidnapped by pirates at a young age. [PAWN_possessive] small size allowed [PAWN_objective] to fit into tiny maintenance spaces on boarded ships to steal valuables. Coincidentally,  [PAWN_pronoun] also became quite adept at treating scurvy.</baseDesc>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_Marauder"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] life as a fighter in a fleet of pirates until it dissolved from infighting. [PAWN_pronoun] saw many battles, but never even went close to any books.</baseDesc>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_StarvingArtist"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>[PAWN_nameDef] was an relatively well-off artist, but the lack of interested patrons forced [PAWN_objective] onto the streets to sell [PAWN_possessive] paintings for a living. [PAWN_pronoun] didn't make much, and what surplus [PAWN_pronoun] had went into more materials and food for some friendly and loyal stray dogs.</baseDesc>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_DesertSurvivor"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>[PAWN_nameDef]'s sworn enemies left [PAWN_objective] to die on a desolated desert. Despite all the odds, [PAWN_pronoun] survived in such an environment and adapted to it. Due to spending a lot of time living in the wastelands, [PAWN_nameDef] has no knowledge about plants.</baseDesc>
+                    </value>
+                </li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
