@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Shavius's Medieval Flavour Pack</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="SH_MED_LandlessKnight"]/baseDesc</xpath>
+							<value>
+								<baseDesc>[PAWN_nameDef] lost [PAWN_possessive] family and friends during a war, and inherited nothing but an hourable knightly title. [PAWN_nameDef] devoted [PAWN_objective]self into [PAWN_possessive] duty, trying to regain what [PAWN_pronoun] has lost.</baseDesc>
+							</value>
+						</li>
+					</operations>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

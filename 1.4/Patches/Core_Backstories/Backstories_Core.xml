@@ -6,23 +6,50 @@
 		<operations>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BackstoryDef[
+					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
+					defName="MercenaryRecruit36"
+					]</xpath>
+				<value>
+					<spawnCategories>
+						<li>Medieval</li>
+						<li>MedievalCommon</li>
+					</spawnCategories>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BackstoryDef[
+					defName="Inventor6" or
 					defName="ChildOfDrifters18" or
 					defName="Assassin20" or
+					defName="Teacher20" or
 					defName="ColiseumFighter22" or
 					defName="TournamentFighter28" or
+					defName="AdventuringChild30" or
 					defName="PlagueDoctor31" or
-					defName="MercenaryRecruit36" or
+					defName="ShopKid36" or
 					defName="ApprenticeSmith37" or
+					defName="Evangelist39" or
+					defName="Jailbird40" or
 					defName="WanderingCrafter42" or
 					defName="PlagueChild44" or
+					defName="ChildSpy47" or
+					defName="WarRefugee51" or
 					defName="Spy58" or
 					defName="Bodyguard58" or
 					defName="SelflessHunter61" or
 					defName="Bartender62" or
+					defName="HouseServant63" or
+					defName="VengefulNomad67" or
+					defName="StoryWriter67" or
 					defName="Restorer70" or
+					defName="Actor72" or
 					defName="PitBrawler76" or
-					defName="ConArtist80"
+					defName="ConArtist80" or
+					defName="AsceticPriest84" or
+					defName="MusicalKid86" or
+					defName="Gardener99"
 					]
 					/spawnCategories</xpath>
 				<value>
@@ -33,11 +60,16 @@
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[
+					defName="MedievalNomad12" or
+					defName="MercenaryRecruit18" or
 					defName="ChildOfDrifters18" or
 					defName="PlagueDoctor31" or
-					defName="Spy58" or
+					defName="MercenaryRecruit36" or
 					defName="WanderingCrafter42" or
 					defName="PlagueChild44" or
+					defName="Spy58" or
+					defName="SelflessHunter61" or
+					defName="VengefulNomad67" or
 					defName="Restorer70"
 					]
 					/shuffleable</xpath>
@@ -115,6 +147,34 @@ Sometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pron
 
 At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</baseDesc>
 				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="VengefulNomad67"]/baseDesc</xpath>
+				<value>
+					<baseDesc>After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n[PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a smithy, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="StoryWriter67"]/baseDesc</xpath>
+				<value>
+					<baseDesc>As a child, [PAWN_nameDef] was addicted to reading. [PAWN_pronoun] would spend all day in a library with [PAWN_possessive] nose in a book. When the library was burned down in an accident, [PAWN_nameDef] was distraught. [PAWN_pronoun] decided to fill the gap by writing [PAWN_possessive] own stories instead.</baseDesc>
+    			</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="Teacher20"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] was educated in the liberal arts and taught at a local school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.</baseDesc>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="LowWageWorker7"]/title</xpath>
+				<value>
+					<title>grunt</title>
+    			</value>
 			</li>
 
 			<li Class="PatchOperationReplace">

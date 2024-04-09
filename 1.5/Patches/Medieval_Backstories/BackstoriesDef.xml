@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Medieval Backstories No HAR</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+
+						<!-- patching Seamstress -->
+						<li Class="PatchOperationAdd">
+							<xpath>
+								/Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]</xpath>
+							<value>
+								<bodyTypeMale>Male</bodyTypeMale>
+								<bodyTypeFemale>Female</bodyTypeFemale>
+								<titleShortFemale>Seamstress</titleShortFemale>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>
+								/Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]/title</xpath>
+							<value>
+								<title>Tailor</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>
+								/Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]/titleShort</xpath>
+							<value>
+								<titleShort>Tailor</titleShort>
+							</value>
+						</li>
+						<li Class="PatchOperationRemove">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]/bodyTypeGlobal</xpath>
+						</li>
+					</operations>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

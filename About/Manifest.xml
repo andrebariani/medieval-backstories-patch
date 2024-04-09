@@ -1,11 +1,11 @@
 <Manifest>
 	<identifier>GrassTypeFire.Medieval.BackstoriesPatch</identifier>
-	<version>1.0.0</version>
-	<!-- <dependencies>
-		<li>DankPyon.Medieval.Overhaul</li>
-	</dependencies> -->
+	<version>1.0.1</version>
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
+		<li>VanillaExpanded.VanillaBackstoriesExpanded</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
+		<li>shavius.Medieval.Flavour</li>
 	</loadAfter>
 	<showCrossPromotions>true</showCrossPromotions>
 </Manifest>
