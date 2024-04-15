@@ -196,6 +196,13 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</b
 					</skillGains>
 				</value>
 			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BackstoryDef[defName="Inventor6"]/baseDesc</xpath>
+				<value>
+					<baseDesc>On [PAWN_possessive] homeland, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several apparatus.</baseDesc>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <BackstoryDef>
+    <BackstoryDef>
     <slot>Adulthood</slot>
     <title>Wandering bard</title>
     <defName>GTF_WanderingBard</defName>
