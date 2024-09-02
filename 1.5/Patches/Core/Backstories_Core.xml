@@ -180,7 +180,6 @@
 			</li>
 
 			<!-- SpacePirate55 -->
-			<!-- TODO: make it less _spacy_ -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="SpacePirate55"]/description</xpath>
 				<value>
