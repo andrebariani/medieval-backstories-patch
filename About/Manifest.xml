@@ -1,12 +1,13 @@
 <Manifest>
 	<identifier>GrassTypeFire.Medieval.BackstoriesPatch</identifier>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>VanillaExpanded.VanillaBackstoriesExpanded</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
 		<li>shavius.Medieval.Flavour</li>
 		<li>AssassinsBro.MedievalBackstoriesNoHAR</li>
+		<li>Accurex.MedievalEmpireOverhaul</li>
 	</loadAfter>
 	<showCrossPromotions>true</showCrossPromotions>
 </Manifest>

@@ -21,6 +21,7 @@
 							<value>
 								<bodyTypeMale>Male</bodyTypeMale>
 								<bodyTypeFemale>Female</bodyTypeFemale>
+								<titleShortFemale>Queen</titleShortFemale>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
@@ -38,13 +39,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/titleShort</xpath>
 							<value>
-								<title>King</title>
-							</value>
-						</li>
-						<li Class="PatchOperationReplace">
-							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/titleShortFemale</xpath>
-							<value>
-								<title>Queen</title>
+								<titleShort>King</titleShort>
 							</value>
 						</li>
 
@@ -58,8 +53,6 @@
 							<value>
 								<bodyTypeMale>Male</bodyTypeMale>
 								<bodyTypeFemale>Female</bodyTypeFemale>
-								<title>Beloved ruler</title>
-								<titleShort>King</titleShort>
 								<titleShortFemale>Queen</titleShortFemale>
 							</value>
 						</li>
@@ -78,13 +71,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/titleShort</xpath>
 							<value>
-								<title>King</title>
-							</value>
-						</li>
-						<li Class="PatchOperationReplace">
-							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/titleShortFemale</xpath>
-							<value>
-								<title>Queen</title>
+								<titleShort>King</titleShort>
 							</value>
 						</li>
 
