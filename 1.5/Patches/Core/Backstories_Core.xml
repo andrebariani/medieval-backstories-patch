@@ -1,81 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
-
-[hr]
-
-[table equalcells=1]
-    [tr]
-        [th]Inventor[/th]
-        [th]Recruiter[/th]
-        [th]Child Of Drifters[/th]
-        [th]Assassin[/th]
-        [th]Teacher[/th]
-    [/tr]
-    [tr]
-        [td]Animal Farmer[/td]
-        [td]Coliseum Fighter[/td]
-        [td]Scavenger[/td]
-        [td]Space Tactician[/td]
-        [td]Tournament Fighter[/td]
-    [/tr]
-    [tr]
-        [td]Quarry Worker[/td]
-        [td]Adventuring Child[/td]
-        [td]Plague Doctor[/td]
-        [td]Shop Kid[/td]
-        [td]Apprentice Smith[/td]
-    [/tr]
-    [tr]
-        [td]Evangelist[/td]
-        [td]Jailbird[/td]
-        [td]Wandering Crafter[/td]
-        [td]Plague Child[/td]
-        [td]Cave Explorer[/td]
-    [/tr]
-    [tr]
-        [td]Child Spy[/td]
-        [td]War Refugee[/td]
-        [td]Colony Settler[/td]
-        [td]Machine Collector[/td]
-        [td]Space Pirate[/td]
-    [/tr]
-    [tr]
-        [td]Slaughterer[/td]
-        [td]Spy[/td]
-        [td]Bodyguard[/td]
-        [td]Nurse[/td]
-        [td]Selfless Hunter[/td]
-    [/tr]
-    [tr]
-        [td]Bartender[/td]
-        [td]House Servant[/td]
-        [td]Geologist[/td]
-        [td]Vengeful Nomad[/td]
-        [td]Drifter[/td]
-    [/tr]
-    [tr]
-        [td]Story Writer[/td]
-        [td]Restorer[/td]
-        [td]Actor[/td]
-        [td]Pit Brawler[/td]
-        [td]Defector[/td]
-    [/tr]
-    [tr]
-        [td]Con Artist[/td]
-        [td]Furniture Builder[/td]
-        [td]Ascetic Priest[/td]
-        [td]Musical Kid[/td]
-        [td]Contract Miner[/td]
-    [/tr]
-    [tr]
-        [td]Hunter[/td]
-        [td]Ranger[/td]
-        [td]Forester[/td]
-        [td]Gardener[/td]
-        [td][/td]
-    [/tr]
-[/table] 
--->
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
@@ -222,6 +145,7 @@
 				</value>
 			</li>
 
+			<!-- Slaughterer58 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Slaughterer58"]/title</xpath>
 				<value>
@@ -229,6 +153,7 @@
     			</value>
 			</li>
 
+			<!-- FurnitureBuilder83 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="FurnitureBuilder83"]/description</xpath>
 				<value>
@@ -236,6 +161,7 @@
 				</value>
 			</li>
 
+			<!-- ContractMiner86 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="ContractMiner86"]/title</xpath>
 				<value>
@@ -243,6 +169,7 @@
     			</value>
 			</li>
 
+			<!-- MachineCollector55 -->
 			<!-- TODO: find better substitute for 'pieces of technology' instead of 'objects' -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="MachineCollector55"]/description</xpath>
@@ -257,6 +184,7 @@
     			</value>
 			</li>
 
+			<!-- Recruiter14 -->
 			<!-- make version with more martial artist flavor -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Recruiter14"]/description</xpath>
@@ -265,6 +193,7 @@
     			</value>
 			</li>
 
+			<!-- MercenaryRecruit18 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="MercenaryRecruit18"]/skillGains</xpath>
 				<value>
@@ -275,49 +204,46 @@
 				</value>
 			</li>
 
+			<!-- Spy58 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Spy58"]/description</xpath>
 				<value>
 					<description>[PAWN_nameDef] was trained by [PAWN_possessive] guild in infiltration and espionage. [PAWN_pronoun] learned to keep a cool head and to talk [PAWN_possessive] way out of tight situations. When talking didn't work, [PAWN_pronoun] was capable of more violent direct action.</description>
 				</value>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeGlobal</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeMale</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="Spy58"]/bodyTypeFemale</xpath>
 			</li>
 
+			<!-- SelflessHunter61 -->
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="SelflessHunter61"]/bodyTypeGlobal</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="SelflessHunter61"]/bodyTypeMale</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="SelflessHunter61"]/bodyTypeFemale</xpath>
 			</li>
 
+			<!-- WanderingCrafter42 -->
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="WanderingCrafter42"]/bodyTypeGlobal</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="WanderingCrafter42"]/bodyTypeMale</xpath>
 			</li>
-
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/BackstoryDef[defName="WanderingCrafter42"]/bodyTypeFemale</xpath>
 			</li>
 
+			<!-- ColiseumCleaner54 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="ColiseumCleaner54"]/description</xpath>
 				<value>
@@ -327,6 +253,7 @@ One night while cleaning the coliseum, [PAWN_possessive] family was murdered.</d
 				</value>
 			</li>
 
+			<!-- Geologist66 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Geologist66"]/description</xpath>
 				<value>
@@ -336,6 +263,7 @@ During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience
 				</value>
 			</li>
 
+			<!-- PlagueChild44 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="PlagueChild44"]/description</xpath>
 				<value>
@@ -345,6 +273,7 @@ During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience
 				</value>
 			</li>
 
+			<!-- PlagueDoctor31 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="PlagueDoctor31"]/description</xpath>
 				<value>
@@ -354,6 +283,7 @@ During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience
 				</value>
 			</li>
 
+			<!-- Bartender62 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Bartender62"]/description</xpath>
 				<value>
@@ -361,6 +291,7 @@ During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience
 				</value>
 			</li>
 
+			<!-- ApprenticeSmith37 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="ApprenticeSmith37"]/description</xpath>
 				<value>
@@ -370,6 +301,7 @@ Sometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pron
 				</value>
 			</li>
 
+			<!-- MercenaryRecruit18 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="MercenaryRecruit18"]/description</xpath>
 				<value>
@@ -378,7 +310,6 @@ Sometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pron
 At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</description>
 				</value>
 			</li>
-
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="MercenaryRecruit18"]/skillGains</xpath>
 				<value>
@@ -390,6 +321,7 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 				</value>
 			</li>
 
+			<!-- VengefulNomad67 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="VengefulNomad67"]/description</xpath>
 				<value>
@@ -397,6 +329,7 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 				</value>
 			</li>
 
+			<!-- StoryWriter67 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="StoryWriter67"]/description</xpath>
 				<value>
@@ -404,6 +337,7 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
     			</value>
 			</li>
 
+			<!-- Teacher20 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Teacher20"]/description</xpath>
 				<value>
@@ -411,6 +345,7 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 				</value>
 			</li>
 
+			<!-- LowWageWorker7 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="LowWageWorker7"]/title</xpath>
 				<value>
@@ -418,6 +353,7 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
     			</value>
 			</li>
 
+			<!-- Inventor6 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/BackstoryDef[defName="Inventor6"]/description</xpath>
 				<value>
