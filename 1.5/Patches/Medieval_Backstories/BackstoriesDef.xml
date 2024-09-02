@@ -21,9 +21,6 @@
 							<value>
 								<bodyTypeMale>Male</bodyTypeMale>
 								<bodyTypeFemale>Female</bodyTypeFemale>
-								<title>Mad ruler</title>
-								<titleShort>King</titleShort>
-								<titleShortFemale>Queen</titleShortFemale>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
@@ -31,6 +28,24 @@
 							<value>
 								<description>[PAWN_nameDef] was the ruler of the realm. The absolute power [PAWN_pronoun] had drove [PAWN_objective] insane and [PAWN_pronoun] was widely considered to be a dangerous tyrant. [PAWN_pronoun] remained unchecked due to the machinations of those who benefitted from [PAWN_possessive] madness. [PAWN_nameDef] was incredibly paranoid, and frequently ordered the execution of innocent people for imagined assassination plots.</description>
     						</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/title</xpath>
+							<value>
+								<title>Mad ruler</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/titleShort</xpath>
+							<value>
+								<title>King</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/titleShortFemale</xpath>
+							<value>
+								<title>Queen</title>
+							</value>
 						</li>
 
 						<!-- patching Beloved king -->
@@ -52,6 +67,24 @@
 							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/description</xpath>
 							<value>
 								<description>[PAWN_nameDef] was the ruler of the realm. [PAWN_pronoun] did [PAWN_possessive] best to be a wise and just ruler and was widely loved by [PAWN_possessive] subjects.</description>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/title</xpath>
+							<value>
+								<title>Beloved ruler</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/titleShort</xpath>
+							<value>
+								<title>King</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/titleShortFemale</xpath>
+							<value>
+								<title>Queen</title>
 							</value>
 						</li>
 

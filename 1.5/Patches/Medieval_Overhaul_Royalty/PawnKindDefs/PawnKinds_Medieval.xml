@@ -12,9 +12,13 @@
 					<xpath>
 						/Defs/PawnKindDef[@Name="Accurex_EmpireCommonerBase"]/backstoryCategories/li[text()="ImperialCommon"]</xpath>
 					<value>
-						<li>Medieval</li>
-						<li>MedievalCommon</li>
-						<li>imperialCommon</li>
+						<li>
+							<categories>
+								<li>Medieval</li>
+								<li>MedievalCommon</li>
+								<li>imperialCommon</li>
+							</categories>
+						</li>
 					</value>
 				</li>
 
@@ -22,9 +26,13 @@
 					<xpath>
 						/Defs/PawnKindDef[@Name="Accurex_EmpireFigtherBase"]/backstoryCategories/li[text()="ImperialFighter"]</xpath>
 					<value>
-						<li>Medieval</li>
-						<li>MedievalKnight</li>
-						<li>ImperialFighter</li>
+						<li>
+							<categories>
+								<li>Medieval</li>
+								<li>MedievalKnight</li>
+								<li>ImperialFighter</li>
+							</categories>
+						</li>
 					</value>
 				</li>
 			</operations>
