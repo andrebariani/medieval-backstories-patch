@@ -2,9 +2,9 @@
 <Defs>
   <!-- Bard inspired backstories -->
   <BackstoryDef>
-    <defName>GTF_WanderingBard</defName>
+    <defName>GTF_MedievalMinstrel95</defName>
     <title>Wandering bard</title>
-    <titleShort>Bard</titleShort>
+    <titleShort>bard</titleShort>
     <slot>Adulthood</slot>
     <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
     <skillGains>
@@ -18,6 +18,27 @@
       <li>MedievalCommon</li>
     </spawnCategories>
   </BackstoryDef>
+
+  <!-- <BackstoryDef>
+    <defName>GTF_Recruiter14</defName>
+    <title>martial artist</title>
+    <titleShort>martial artist</titleShort>
+    <description>[PAWN_nameDef] was part of a revered order of martial artists, infamous for their skill in combat.\n\n[PAWN_pronoun] traveled the land, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training.</description>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Melee>8</Melee>
+      <Social>5</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef> -->
 
   
   <!-- <BackstoryDef>

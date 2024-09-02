@@ -11,17 +11,29 @@
 				<li Class="PatchOperationAdd">
                     <xpath>/Defs/BackstoryDef[
                         defName="VBE_Barber" or
+                        defName="VBE_TroupeChild" or
+                        defName="VBE_Bullleaper" or
+                        defName="VBE_RefugeeRunner" or
+                        defName="VBE_WarOrphan" or
                         defName="VBE_OrphanThief" or
                         defName="VBE_PirateKid" or
                         defName="VBE_Marauder" or
                         defName="VBE_StarvingArtist" or
                         defName="VBE_MilitiaRecruit" or
+                        defName="VBE_GalleyChef" or
                         defName="VBE_DesertSurvivor"
                         ]
                         /spawnCategories</xpath>
                     <value>
                         <li>Medieval</li>
                         <li>MedievalCommon</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_GalleyChef"]/baseDesc</xpath>
+                    <value>
+                        <baseDesc>[PAWN_nameDef] ran the galley on a mid-sized sea-faring ship, providing hearty and nutritious meals for the crew. Cooking amidst the waves presented unique challenges, yet [PAWN_pronoun] mastered the art. However, [PAWN_pronoun] never took well to the intricacies of the ship, preferring pans over knots and sails.</baseDesc>
                     </value>
                 </li>
 
