@@ -5,13 +5,12 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/FactionDef[@Name="Empire"]/backstoryFilters/li</xpath>
+				<xpath>/Defs/FactionDef[defName="Empire"]/backstoryFilters/li</xpath>
 				<value>
 					<li>
 						<categories>
 							<li>Medieval</li>
 							<li>MedievalCommon</li>
-							<!-- <li>ImperialCommon</li> -->
 						</categories>
 					</li>
 				</value>
