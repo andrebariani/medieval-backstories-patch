@@ -13,8 +13,6 @@
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
 								<li>MedievalKnight</li>
-								<li>ImperialCommon</li>
-          						<li>ImperialFighter</li>
 							</categories>
 						</li>
 					</backstoryFiltersOverride>
@@ -29,7 +27,6 @@
 							<categories>
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
-								<li>ImperialCommon</li>
 							</categories>
 						</li>
 					</backstoryFiltersOverride>
@@ -44,7 +41,6 @@
 							<categories>
 								<li>Medieval</li>
 								<li>MedievalKnight</li>
-								<li>ImperialFighter</li>
 							</categories>
 						</li>
 					</backstoryFiltersOverride>
@@ -58,7 +54,6 @@
 						<li>
 							<categories>
 								<li>MedievalRoyal</li>
-								<li>ImperialRoyal</li>
 							</categories>
 						</li>
 					</backstoryFiltersOverride>
