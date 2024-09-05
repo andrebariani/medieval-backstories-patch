@@ -24,6 +24,11 @@
 						</li>
 						<li>
 							<categories>
+								<li>MedievalKnight</li>
+							</categories>
+						</li>
+						<li>
+							<categories>
 								<li>MedievalRoyal</li>
 							</categories>
 							<commonality>0.05</commonality>
