@@ -9,7 +9,7 @@
             <success>Always</success>
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/FactionDef[@Name="VFEM_UnknownKingdomBase"]/backstoryFilters/li</xpath>
+                    <xpath>Defs/FactionDef[@Name="VFEM_UnknownKingdomBase"]/backstoryFilters/li</xpath>
                     <value>
                         <li>
 							<categories>
@@ -20,7 +20,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/FactionDef[@Name="VFEM_MedievalFactionBase"]/backstoryFilters/li</xpath>
+                    <xpath>Defs/FactionDef[@Name="VFEM_MedievalFactionBase"]/backstoryFilters/li</xpath>
                     <value>
                         <categories>
 							<li>Medieval</li>
@@ -29,7 +29,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/FactionDef[defName="VFEM_PlayerKingdom"]/backstoryFilters/li</xpath>
+                    <xpath>Defs/FactionDef[defName="VFEM_PlayerKingdom"]/backstoryFilters/li</xpath>
                     <value>
                         <categories>
 							<li>Medieval</li>

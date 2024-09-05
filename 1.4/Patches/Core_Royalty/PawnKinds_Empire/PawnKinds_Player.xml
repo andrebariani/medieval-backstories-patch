@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/PawnKindDef[defName="Empire_Common_Lodger"]/backstoryFiltersOverride</xpath>
+				<value>
+					<backstoryFiltersOverride>
+						<li>
+							<categories>
+								<li>MedievalCommon</li>
+								<li>MedievalKnight</li>
+							</categories>
+						</li>
+					</backstoryFiltersOverride>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/PawnKindDef[defName="Empire_Common_Laborer"]/backstoryFiltersOverride</xpath>
+				<value>
+					<backstoryFiltersOverride>
+						<li>
+							<categories>
+								<li>MedievalCommon</li>
+							</categories>
+						</li>
+					</backstoryFiltersOverride>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/PawnKindDef[@Name="ImperialFighterBase"]/backstoryFiltersOverride</xpath>
+				<value>
+					<backstoryFiltersOverride>
+						<li>
+							<categories>
+								<li>MedievalKnight</li>
+							</categories>
+						</li>
+					</backstoryFiltersOverride>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/PawnKindDef[@Name="RoyalBase"]/backstoryFiltersOverride</xpath>
+				<value>
+					<backstoryFiltersOverride>
+						<li>
+							<categories>
+								<li>MedievalRoyal</li>
+							</categories>
+						</li>
+					</backstoryFiltersOverride>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

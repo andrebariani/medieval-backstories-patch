@@ -8,19 +8,20 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="DankPyon_PlayerKingdom"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[defName="DankPyon_PlayerKingdom"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
+								<li>MedievalKnight</li>
 							</categories>
 						</li>
 					</value>
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="DankPyon_LoneWolf"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[defName="DankPyon_LoneWolf"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>
@@ -31,12 +32,13 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="DankPyon_MercenaryCompany"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[defName="DankPyon_MercenaryCompany"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
+								<li>MedievalKnight</li>
 							</categories>
 						</li>
 					</value>
