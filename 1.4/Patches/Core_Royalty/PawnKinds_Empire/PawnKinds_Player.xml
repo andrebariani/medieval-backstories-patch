@@ -5,7 +5,7 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/PawnKindDef[@Name="Empire_Common_Lodger"]/backstoryFiltersOverride</xpath>
+				<xpath>Defs/PawnKindDef[@Name="Empire_Common_Lodger"]/backstoryFiltersOverride</xpath>
 				<value>
 					<backstoryFiltersOverride>
 						<li>
@@ -22,7 +22,7 @@
 			</li>
 
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/PawnKindDef[@Name="Empire_Common_Laborer"]/backstoryFiltersOverride</xpath>
+				<xpath>Defs/PawnKindDef[@Name="Empire_Common_Laborer"]/backstoryFiltersOverride</xpath>
 				<value>
 					<backstoryFiltersOverride>
 						<li>
@@ -37,7 +37,7 @@
 			</li>
 
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/PawnKindDef[@Name=ImperialFighterBase"]/backstoryFiltersOverride</xpath>
+				<xpath>Defs/PawnKindDef[@Name=ImperialFighterBase"]/backstoryFiltersOverride</xpath>
 				<value>
 					<backstoryFiltersOverride>
 						<li>
@@ -52,7 +52,7 @@
 			</li>
 
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/PawnKindDef[@Name="RoyalBase"]/backstoryFiltersOverride</xpath>
+				<xpath>Defs/PawnKindDef[@Name="RoyalBase"]/backstoryFiltersOverride</xpath>
 				<value>
 					<backstoryFiltersOverride>
 						<li>

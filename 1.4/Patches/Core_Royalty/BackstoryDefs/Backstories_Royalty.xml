@@ -6,7 +6,7 @@
 		<operations>
 			<!-- Medieval Common -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[
+				<xpath>Defs/BackstoryDef[
 					defName="MenagerieKeeper1" or
 					defName="RoyalCook18" or
 					defName="ImperialPriest24" or
@@ -26,7 +26,7 @@
 			
 			<!-- Medieval Knight -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[
+				<xpath>Defs/BackstoryDef[
 					defName="RoyalGuard51"
 					]
 					/spawnCategories</xpath>

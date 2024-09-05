@@ -10,7 +10,7 @@
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[@Name="Accurex_EmpireCommonerBase"]/backstoryFilters/li[text()="ImperialCommon"]</xpath>
+						Defs/PawnKindDef[@Name="Accurex_EmpireCommonerBase"]/backstoryFilters/li[text()="ImperialCommon"]</xpath>
 					<value>
 						<li>MedievalCommon</li>
 					</value>
@@ -18,7 +18,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[@Name="Accurex_EmpireFigtherBase"]/backstoryFilters/li[text()="ImperialFighter"]</xpath>
+						Defs/PawnKindDef[@Name="Accurex_EmpireFigtherBase"]/backstoryFilters/li[text()="ImperialFighter"]</xpath>
 					<value>
 						<li>MedievalKnight</li>
 					</value>

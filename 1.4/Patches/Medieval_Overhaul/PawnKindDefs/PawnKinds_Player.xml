@@ -10,7 +10,7 @@
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="DankPyon_Subject"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="DankPyon_Subject"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
@@ -19,7 +19,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="DankPyon_PlayerMercenary"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="DankPyon_PlayerMercenary"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
@@ -28,7 +28,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="DankPyon_HedgeKnight"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="DankPyon_HedgeKnight"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>MedievalKnight</li>
 					</value>

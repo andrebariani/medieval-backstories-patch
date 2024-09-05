@@ -9,7 +9,7 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[@Name="DankPyon_BrigandFactionBase"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[@Name="DankPyon_BrigandFactionBase"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>

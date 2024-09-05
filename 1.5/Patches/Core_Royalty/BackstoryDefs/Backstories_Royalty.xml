@@ -6,7 +6,7 @@
 		<operations>
 			<!-- Medieval Common -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[
+				<xpath>Defs/BackstoryDef[
 					defName="MenagerieKeeper1" or
 					defName="RoyalCook18" or
 					defName="ImperialPriest24" or
@@ -25,7 +25,7 @@
 			
 			<!-- Medieval Knight -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[
+				<xpath>Defs/BackstoryDef[
 					defName="InfantryMedic6" or
 					defName="MilitaryCook18" or
 					defName="LineInfanteer20" or
@@ -36,7 +36,6 @@
 					defName="Deserter65" or
 					defName="UnwantedSurvivor67" or
 					defName="PiousSoldier67"
-					
 					]
 					/spawnCategories</xpath>
 				<value>
@@ -46,7 +45,7 @@
 
 			<!-- Medieval Royal -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[
+				<xpath>Defs/BackstoryDef[
 					defName="InfantryMedic6" or
 					defName="Regent9" or
 					defName="LineInfanteer20" or
@@ -69,25 +68,15 @@
 				</value>
 			</li>
 
-			<!-- Landworker98 -->
+			<!-- InfantryEngineer46 -->
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="Landworker98"]/description</xpath>
-				<value>
-					<description>[PAWN_nameDef] held the position of landworker in [PAWN_possessive] royal house. [PAWN_pronoun] managed the family's lands and all the resources on them - both agricultural and mineral.
-\nThough [PAWN_pronoun] would never get [PAWN_possessive] hands dirty, managing these enterprises required learning the methods of farming and mining in detail.
-					</description>
-				</value>
-			</li>
-
-			<!-- Landworker98 -->
-			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/description</xpath>
+				<xpath>Defs/BackstoryDef[defName="InfantryEngineer46"]/description</xpath>
 				<value>
 					<description>Despite being in an infantry battalion, [PAWN_nameDef] rarely fought in battle. [PAWN_possessive] specialty was the rapid construction of defenses, traps and siege engines.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/title</xpath>
+				<xpath>Defs/BackstoryDef[defName="InfantryEngineer46"]/title</xpath>
 				<value>
 					<title>siege engineer</title>
     			</value>
