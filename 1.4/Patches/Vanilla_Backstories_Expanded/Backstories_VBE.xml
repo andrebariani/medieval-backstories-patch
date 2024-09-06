@@ -24,6 +24,19 @@
                     </value>
                 </li>
 
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BackstoryDef[
+                        defName="VBE_OrphanThief" or
+                        defName="VBE_PirateKid" or
+                        defName="VBE_Marauder" or
+                        defName="VBE_DesertSurvivor"
+                        ]
+                        /spawnCategories</xpath>
+                    <value>
+                        <li>MedievalKnight</li>
+                    </value>
+                </li>
+
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/BackstoryDef[defName="VBE_OrphanThief"]/baseDesc</xpath>
                     <value>

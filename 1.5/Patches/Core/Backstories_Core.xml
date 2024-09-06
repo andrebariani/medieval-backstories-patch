@@ -16,6 +16,7 @@
 					<spawnCategories>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
+						<li>MedievalKnight</li>
 					</spawnCategories>
 				</value>
 			</li>
@@ -77,6 +78,32 @@
 				<value>
 					<li>Medieval</li>
 					<li>MedievalCommon</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BackstoryDef[
+					defName="Recruiter14" or
+					defName="Assassin20" or
+					defName="ColiseumFighter22" or
+					defName="SpaceTactician28" or
+					defName="TournamentFighter28" or
+					defName="AdventuringChild30" or
+					defName="Jailbird40" or
+					defName="ChildSpy47" or
+					defName="WarRefugee51" or
+					defName="SpacePirate55" or
+					defName="Spy58" or
+					defName="Bodyguard58" or
+					defName="SelflessHunter61" or
+					defName="VengefulNomad67" or
+					defName="Drifter67" or
+					defName="PitBrawler76" or
+					defName="Defector78"
+					]
+					/spawnCategories</xpath>
+				<value>
+					<li>MedievalKnight</li>
 				</value>
 			</li>
 
