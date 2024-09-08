@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <BackstoryDef>
-    <slot>Adulthood</slot>
-    <title>Wandering bard</title>
+  <BackstoryDef>
     <defName>GTF_WanderingBard</defName>
+    <title>Wandering bard</title>
     <titleShort>Bard</titleShort>
+    <slot>Adulthood</slot>
     <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
     <skillGains>
       <li><key>Social</key><value>4</value></li>

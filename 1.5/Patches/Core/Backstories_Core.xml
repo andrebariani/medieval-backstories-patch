@@ -23,6 +23,8 @@
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
+					defName="SpaceSmuggler6" or
+					defName="Mathematician6" or
 					defName="Inventor6" or
 					defName="Recruiter14" or
 					defName="ChildOfDrifters18" or
@@ -31,6 +33,7 @@
 					defName="AnimalFarmer21" or
 					defName="ColiseumFighter22" or
 					defName="Scavenger22" or
+					defName="Smuggler23" or
 					defName="SpaceTactician28" or
 					defName="TournamentFighter28" or
 					defName="QuarryWorker29" or
@@ -109,9 +112,11 @@
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[
+					defName="SpaceSmuggler6" or
 					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="ChildOfDrifters18" or
+					defName="Smuggler23" or
 					defName="TournamentFighter28" or
 					defName="PlagueDoctor31" or
 					defName="MercenaryRecruit36" or
@@ -127,6 +132,51 @@
 				<value>
 					<shuffleable>True</shuffleable>
 				</value>
+			</li>
+
+			<!-- Smuggler23 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Smuggler23"]/description</xpath>
+				<value>
+					<description>As a peddler, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own ship, and used it to travel the land dealing [PAWN_possessive] goods in person.</description>
+				</value>
+			</li>
+
+			<!-- SpaceSmuggler6 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/description</xpath>
+				<value>
+					<description>[PAWN_nameDef]'s parents used [PAWN_objective] to help smuggle contraband between the frontiers.
+
+						Aided by [PAWN_possessive] small size, [PAWN_nameDef] became very adept at carrying out [PAWN_possessive] parents' missions, learning weaponry, negotiations, and most of all smuggling.
+					</description>  
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/title</xpath>
+				<value>
+					<title>smuggler Kid</title>
+    			</value>
+			</li>
+
+			<!-- Mathematician6 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/description</xpath>
+				<value>
+					<description>[PAWN_nameDef] did research at an academy.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time in a nearby archery range, though [PAWN_pronoun] was frequently ridiculed by others for [PAWN_possessive] terrible aim.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/title</xpath>
+				<value>
+					<title>academic</title>
+    			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/titleShort</xpath>
+				<value>
+					<titleShort>professor</titleShort>
+    			</value>
 			</li>
 
 			<!-- SpacePirate55 -->
@@ -153,7 +203,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="SpaceTactician28"]/title</xpath>
 				<value>
-					<title>tactician</title>
+					<title>war tactician</title>
     			</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -196,11 +246,10 @@
 			</li>
 
 			<!-- MachineCollector55 -->
-			<!-- TODO: find better substitute for 'pieces of technology' instead of 'objects' -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="MachineCollector55"]/description</xpath>
 				<value>
-					<description>[PAWN_nameDef] was obsessed with old trinkets and arcane objects. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved trying to understand how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</description>
+					<description>[PAWN_nameDef] was obsessed with old trinkets and arcane artifacts. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved trying to understand how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
