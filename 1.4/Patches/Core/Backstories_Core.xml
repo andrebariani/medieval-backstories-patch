@@ -23,18 +23,24 @@
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
+					defName="SpaceSmuggler6" or
+					defName="Mathematician6" or
 					defName="Inventor6" or
 					defName="Recruiter14" or
+					defName="MafiaBoss17" or
+					defName="Pyromaniac18" or
 					defName="ChildOfDrifters18" or
 					defName="Assassin20" or
 					defName="Teacher20" or
 					defName="AnimalFarmer21" or
 					defName="ColiseumFighter22" or
 					defName="Scavenger22" or
+					defName="Smuggler23" or
 					defName="SpaceTactician28" or
 					defName="TournamentFighter28" or
 					defName="QuarryWorker29" or
 					defName="AdventuringChild30" or
+					defName="Gigolo30" or
 					defName="PlagueDoctor31" or
 					defName="ShopKid36" or
 					defName="ApprenticeSmith37" or
@@ -65,11 +71,13 @@
 					defName="PitBrawler76" or
 					defName="Defector78" or
 					defName="ConArtist80" or
+					defName="Hermit82" or
 					defName="FurnitureBuilder83" or
 					defName="AsceticPriest84" or
 					defName="MusicalKid86" or
 					defName="ContractMiner86" or
 					defName="Hunter89" or
+					defName="WreckageExplorer93" or
 					defName="Ranger96" or
 					defName="Forester96" or
 					defName="Gardener99"
@@ -109,9 +117,11 @@
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[
+					defName="SpaceSmuggler6" or
 					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="ChildOfDrifters18" or
+					defName="Smuggler23" or
 					defName="TournamentFighter28" or
 					defName="PlagueDoctor31" or
 					defName="MercenaryRecruit36" or
@@ -129,11 +139,98 @@
 				</value>
 			</li>
 
+			<!-- WreckageExplorer93 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the abandoned ruins scattered across the land.</baseDesc>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/title</xpath>
+				<value>
+					<title>ruins explorer</title>
+    			</value>
+			</li>
+
+			<!-- MafiaBoss17 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="MafiaBoss17"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] was a high-ranking member of a crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</baseDesc>
+				</value>
+			</li>
+
+			<!-- Gigolo30 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Gigolo30"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] was used for [PAWN_possessive] body by hundreds of customers in brothels on several cities. [PAWN_pronoun] gained some mental marks and a special kind of street smarts.</baseDesc>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Gigolo30"]/title</xpath>
+				<value>
+					<title>courtesean</title>
+    			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Gigolo30"]/titleFemale</xpath>
+				<value>
+					<titleFemale>courtesean</titleFemale>
+    			</value>
+			</li>
+
+			<!-- Smuggler23 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Smuggler23"]/baseDesc</xpath>
+				<value>
+					<baseDesc>As a peddler, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own wagon, and used it to travel the land dealing [PAWN_possessive] goods.</baseDesc>
+				</value>
+			</li>
+
+			<!-- SpaceSmuggler6 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef]'s parents used [PAWN_objective] to help smuggle contraband across the frontier.
+
+						Aided by [PAWN_possessive] small size, [PAWN_nameDef] became very adept at carrying out [PAWN_possessive] parents' missions, learning weaponry, negotiations, and most of all smuggling.
+					</baseDesc>  
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/title</xpath>
+				<value>
+					<title>smuggler Kid</title>
+    			</value>
+			</li>
+
+			<!-- Mathematician6 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/baseDesc</xpath>
+				<value>
+					<baseDesc>[PAWN_nameDef] did research in various subjects at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time in a nearby archery range, though [PAWN_pronoun] was frequently ridiculed by others for [PAWN_possessive] terrible aim.</baseDesc>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/title</xpath>
+				<value>
+					<title>academic</title>
+    			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Mathematician6"]/titleShort</xpath>
+				<value>
+					<titleShort>professor</titleShort>
+    			</value>
+			</li>
+
 			<!-- SpacePirate55 -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="SpacePirate55"]/baseDesc</xpath>
 				<value>
-					<baseDesc>Piracy appears everywhere that governments are weak and society spread thin. [PAWN_nameDef] was part of this age-old tradition, extorting and smashing peaceful trade ships for profit.</baseDesc>
+					<baseDesc>Piracy appears everywhere that governments are weak and society spread thin. [PAWN_nameDef] was part of this tradition, extorting and smashing peaceful trade ships for profit.</baseDesc>
     			</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -153,7 +250,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="SpaceTactician28"]/title</xpath>
 				<value>
-					<title>tactician</title>
+					<title>war tactician</title>
     			</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -196,11 +293,10 @@
 			</li>
 
 			<!-- MachineCollector55 -->
-			<!-- TODO: find better substitute for 'pieces of technology' instead of 'objects' -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="MachineCollector55"]/baseDesc</xpath>
 				<value>
-					<baseDesc>[PAWN_nameDef] was obsessed with old trinkets and arcane objects. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved trying to understand how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</baseDesc>
+					<baseDesc>[PAWN_nameDef] was obsessed with old trinkets and arcane artifacts. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved trying to understand how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</baseDesc>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
