@@ -1,8 +1,8 @@
 # Medieval Backstories Patch
 
 A small patch to make medieval backstories from mods like Vanilla Backstories Expanded appear in your medieval play-through.
-Since there’s no Medieval category in the base game, mods like VFE - Medieval or Medieval Overhaul use the Tribal category for backstories.
-This patch applies the medieval category accordingly so it shows up to pawns of those factions, and also patches some backstories from the base game and other mods to give more variety.
+Since there’s no Medieval category in the base game, mods like **VFE - Medieval** or **Medieval Overhaul** use the Tribal category for backstories.
+This patch applies the Medieval category accordingly so it shows up to pawns of those factions, and also patches some backstories from the base game and other mods to give more variety.
 If you are tired of medieval pawns showing up with tribal backstories like _Fire Keeper_ or _Stew Keeper_, then this mod fixes that!
 
 ## Patched Backstories
