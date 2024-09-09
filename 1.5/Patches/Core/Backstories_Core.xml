@@ -7,6 +7,17 @@
 			<!-- Adds spawn categories -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
+					defName="SpaceSmuggler6"
+					]</xpath>
+				<value>
+					<spawnCategories>
+						<li>Medieval</li>
+						<li>MedievalCommon</li>
+					</spawnCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BackstoryDef[
 					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="MercenaryRecruit36" or
@@ -23,7 +34,6 @@
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
-					defName="SpaceSmuggler6" or
 					defName="Mathematician6" or
 					defName="Inventor6" or
 					defName="Recruiter14" or
@@ -139,9 +149,6 @@
 				</value>
 			</li>
 
-			<!-- Pyromaniac18 -->
-			<!-- hermit82 -->
-
 			<!-- WreckageExplorer93 -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/description</xpath>
@@ -196,10 +203,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/description</xpath>
 				<value>
-					<description>[PAWN_nameDef]'s parents used [PAWN_objective] to help smuggle contraband across the frontier.
-
-						Aided by [PAWN_possessive] small size, [PAWN_nameDef] became very adept at carrying out [PAWN_possessive] parents' missions, learning weaponry, negotiations, and most of all smuggling.
-					</description>  
+					<description>[PAWN_nameDef]'s parents used [PAWN_objective] to help smuggle contraband across the frontier.\n\nAided by [PAWN_possessive] small size, [PAWN_nameDef] became very adept at carrying out [PAWN_possessive] parents' missions, learning weaponry, negotiations, and most of all smuggling.</description>  
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

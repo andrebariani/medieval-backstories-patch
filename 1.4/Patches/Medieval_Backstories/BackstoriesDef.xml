@@ -11,7 +11,14 @@
 				<match Class="PatchOperationSequence">
 					<success>Always</success>
 					<operations>
-						<!-- patching Mad king -->
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedKing"]</xpath>
+						</li>
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadKing"]</xpath>
+						</li>
+
+						<!-- patching Mad queen -->
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/bodyTypeGlobal</xpath>
 						</li>
@@ -43,7 +50,7 @@
 							</value>
 						</li>
 
-						<!-- patching Beloved king -->
+						<!-- patching Beloved queen -->
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/bodyTypeGlobal</xpath>
 						</li>
@@ -65,13 +72,13 @@
 						<li Class="PatchOperationReplace">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/title</xpath>
 							<value>
-								<title>Beloved ruler</title>
+								<title>beloved ruler</title>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_BelovedQueen"]/titleShort</xpath>
 							<value>
-								<titleShort>King</titleShort>
+								<titleShort>king</titleShort>
 							</value>
 						</li>
 
@@ -129,6 +136,49 @@
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_OrphanGirl"]/titleShort</xpath>
 							<value>
 								<titleShort>Orphan</titleShort>
+							</value>
+						</li>
+
+						<!-- patching Charitable Nun -->
+						 
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/bodyTypeGlobal</xpath>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]</xpath>
+							<value>
+								<bodyTypeMale>Male</bodyTypeMale>
+								<bodyTypeFemale>Female</bodyTypeFemale>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/title</xpath>
+							<value>
+								<title>Charitable monk</title>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/titleFemale</xpath>
+							<value>
+								<titleFemale>Charitable nun</titleFemale>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/titleShort</xpath>
+							<value>
+								<titleShort>monk</titleShort>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/titleShortFemale</xpath>
+							<value>
+								<titleShortFemale>nun</titleShortFemale>
 							</value>
 						</li>
 					</operations>

@@ -82,8 +82,7 @@
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
 				<xpath>Defs/BackstoryDef[defName="ShipBoy89"]/description</xpath>
 				<value>
-					<description>[PAWN_nameDef] was born to low-ranked servants on an sea-faring ship. The crew [PAWN_pronoun] worked for was like a second family.
-						\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch.</description>
+					<description>[PAWN_nameDef] was born to low-ranked servants on an sea-faring ship. The crew [PAWN_pronoun] worked for was like a second family.\n\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch.</description>
 				</value>
 			</li>
 
