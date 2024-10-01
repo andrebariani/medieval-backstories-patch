@@ -7,7 +7,7 @@
   <supportedVersions>
     <li>1.4</li><li>1.5</li>
   </supportedVersions>
-  <modVersion>1.0.6</modVersion>
+  <modVersion>1.0.7</modVersion>
   
   <loadAfter>
     <li>DankPyon.Medieval.Overhaul</li>
