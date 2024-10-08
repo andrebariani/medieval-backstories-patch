@@ -12,7 +12,7 @@
 					<value>
 						<li>
 							<categories>
-                <li>Tribal</li>
+								<li>Tribal</li>
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
 								<li>MedievalKnight</li>
@@ -21,12 +21,13 @@
 					</value>
 				</li>
 
-        <li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="BotchJob_ProfanedPlayerFaction"]/backstoryFilters/li</xpath>
+				<li Class="PatchOperationReplace">
+					<xpath>
+						/Defs/FactionDef[defName="BotchJob_ProfanedPlayerFaction"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>
-                <li>Tribal</li>
+								<li>Tribal</li>
 								<li>Medieval</li>
 								<li>MedievalCommon</li>
 								<li>MedievalKnight</li>
