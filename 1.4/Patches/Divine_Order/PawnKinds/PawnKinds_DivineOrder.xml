@@ -9,29 +9,21 @@
       <!-- <success>Always</success> -->
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderCommoner"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderCommoner"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
           </value>
         </li>
         
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderMerchant"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderMerchant"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
           </value>
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderConscript"]/backstoryFilters/li/categories/li</xpath>
-          <value>
-            <li>MedievalCommon</li>
-            <li>MedievalKnight</li>
-          </value>
-        </li>
-
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderScout"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderConscript"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
             <li>MedievalKnight</li>
@@ -39,7 +31,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderFighter"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderScout"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
             <li>MedievalKnight</li>
@@ -47,7 +39,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderZealot"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderFighter"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
             <li>MedievalKnight</li>
@@ -55,7 +47,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderSharpshooter"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderZealot"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
             <li>MedievalKnight</li>
@@ -63,21 +55,29 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderKnight"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderSharpshooter"]/backstoryFilters/li/categories/li</xpath>
+          <value>
+            <li>MedievalCommon</li>
+            <li>MedievalKnight</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderKnight"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalKnight</li>
           </value>
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderChampion"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderChampion"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalKnight</li>
           </value>
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/PawnKindDef[defName="BotchJob_DivineOrderDefector"]/backstoryFilters/li/categories/li</xpath>
+          <xpath>/Defs/PawnKindDef[defName="BotchJob_DivineOrderDefector"]/backstoryFilters/li/categories/li</xpath>
           <value>
             <li>MedievalCommon</li>
             <li>MedievalKnight</li>

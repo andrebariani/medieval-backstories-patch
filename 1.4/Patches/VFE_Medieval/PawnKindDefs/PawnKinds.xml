@@ -9,7 +9,7 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[@Name="VFEM_MedievalPawnKindBase"]/backstoryCategories</xpath>
+					<xpath>/Defs/PawnKindDef[@Name="VFEM_MedievalPawnKindBase"]/backstoryCategories</xpath>
 					<value>
 						<backstoryFiltersOverride>
 							<li>

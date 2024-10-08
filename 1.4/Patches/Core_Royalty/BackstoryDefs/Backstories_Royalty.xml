@@ -6,7 +6,7 @@
 		<operations>
 			<!-- Medieval Common -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[
+				<xpath>/Defs/BackstoryDef[
 					defName="MenagerieKeeper1" or
 					defName="RoyalCook18" or
 					defName="ImperialPriest24" or
@@ -26,7 +26,7 @@
 			
 			<!-- Medieval Knight -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[
+				<xpath>/Defs/BackstoryDef[
 					defName="InfantryMedic6" or
 					defName="Delinquent13" or
 					defName="MilitaryCook18" or
@@ -50,7 +50,7 @@
 
 			<!-- Medieval Royal -->
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[
+				<xpath>/Defs/BackstoryDef[
 					defName="InfantryMedic6" or
 					defName="Regent9" or
 					defName="Delinquent13" or
@@ -80,7 +80,7 @@
 
 			<!-- ShipBoy89 -->
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[defName="ShipBoy89"]/baseDesc</xpath>
+				<xpath>/Defs/BackstoryDef[defName="ShipBoy89"]/baseDesc</xpath>
 				<value>
 					<baseDesc>[PAWN_nameDef] was born to low-ranked servants on an sea-faring ship. The crew [PAWN_pronoun] worked for was like a second family.\n\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch.</baseDesc>
 				</value>
@@ -88,7 +88,7 @@
 
 			<!-- Artilleryman28 -->
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[defName="Artilleryman28"]/baseDesc</xpath>
+				<xpath>/Defs/BackstoryDef[defName="Artilleryman28"]/baseDesc</xpath>
 				<value>
 					<baseDesc>[PAWN_nameDef] loaded ammunition and aimed artillery to pound [PAWN_possessive] army's enemies from afar.</baseDesc>
 				</value>
@@ -96,13 +96,13 @@
 
 			<!-- InfantryEngineer46 -->
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[defName="InfantryEngineer46"]/baseDesc</xpath>
+				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/baseDesc</xpath>
 				<value>
 					<baseDesc>Despite being in an infantry battalion, [PAWN_nameDef] rarely fought in battle. [PAWN_possessive] specialty was the rapid construction of defenses, traps and siege engines.</baseDesc>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>Defs/BackstoryDef[defName="InfantryEngineer46"]/title</xpath>
+				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/title</xpath>
 				<value>
 					<title>siege engineer</title>
     			</value>
