@@ -10,7 +10,7 @@
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/backstoryFilters/li</xpath>
+						/Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>

@@ -23,7 +23,7 @@
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						Defs/PawnKindDef[defName="VFEM_Subject"]/backstoryCategories/li</xpath>
+						/Defs/PawnKindDef[defName="VFEM_Subject"]/backstoryCategories/li</xpath>
 					<value>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
