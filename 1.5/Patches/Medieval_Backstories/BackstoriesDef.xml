@@ -194,6 +194,19 @@
 								<bodyTypeFemale>Female</bodyTypeFemale>
 							</value>
 						</li>
+
+						<!-- patching Tavern Wench -->
+						<li Class="PatchOperationRemove">
+							<xpath>/Defs/BackstoryDef[defName="AssassinsBro_Medieval_TavernWench"]/bodyTypeGlobal</xpath>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>
+								/Defs/BackstoryDef[defName="AssassinsBro_Medieval_TavernWench"]</xpath>
+							<value>
+								<bodyTypeMale>Male</bodyTypeMale>
+								<bodyTypeFemale>Female</bodyTypeFemale>
+							</value>
+						</li>
 					</operations>
 				</match>
 			</li>

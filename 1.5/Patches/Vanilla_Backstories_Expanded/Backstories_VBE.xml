@@ -90,6 +90,15 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from guards.</baseDes
                         <baseDesc>[PAWN_nameDef]'s sworn enemies left [PAWN_objective] to die on a desolated desert. Despite all the odds, [PAWN_pronoun] survived in such an environment and adapted to it. Due to spending a lot of time living in the wastelands, [PAWN_nameDef] has no knowledge about plants.</baseDesc>
                     </value>
                 </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BackstoryDef[defName="VBE_Maid"]</xpath>
+                    <value>
+                        <requiredWorkTags>
+                            <li>ManualDumb</li>
+                        </requiredWorkTags>                    
+                    </value>
+                </li>
 			</operations>
 		</match>
 	</Operation>

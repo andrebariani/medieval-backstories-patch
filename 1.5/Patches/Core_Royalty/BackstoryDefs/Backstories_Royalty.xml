@@ -15,7 +15,6 @@
 					defName="OrnamentMaker56" or
 					defName="BalletDancer81" or
 					defName="HouseServant86" or
-					defName="ShipBoy89" or
 					defName="ChurchPsychic98"
 					]
 					/spawnCategories</xpath>
@@ -28,23 +27,14 @@
 			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
 				<xpath>/Defs/BackstoryDef[
 					defName="InfantryMedic6" or
-					defName="Delinquent13" or
-					defName="MilitaryCook18" or
-					defName="LineInfanteer20" or
-					defName="Artilleryman28" or
-					defName="Warmonger35" or
-					defName="InfantryEngineer46" or
-					defName="MilitaryCadet46" or
-					defName="RoyalGuard51" or
 					defName="LoyalJanissary59" or
 					defName="Deserter65" or
-					defName="UnwantedSurvivor67" or
-					defName="PiousSoldier67" or
-					defName="ShipBoy89"
+					defName="UnwantedSurvivor67"
 					]
 					/spawnCategories</xpath>
 				<value>
 					<li>MedievalKnight</li>
+					<li>MedievalHigh</li>
 				</value>
 			</li>
 
@@ -53,14 +43,8 @@
 				<xpath>/Defs/BackstoryDef[
 					defName="InfantryMedic6" or
 					defName="Regent9" or
-					defName="Delinquent13" or
-					defName="LineInfanteer20" or
-					defName="Warmonger35" or
 					defName="PamperedLordling37" or
 					defName="Spymaster41" or
-					defName="InfantryEngineer46" or
-					defName="MilitaryCadet46" or
-					defName="Warmaster54" or
 					defName="ArtsPatron54" or
 					defName="LoyalJanissary59" or
 					defName="Beastmaster67" or
@@ -72,42 +56,9 @@
 					/spawnCategories</xpath>
 				<value>
 					<li>MedievalRoyal</li>
+					<li>MedievalHigh</li>
 				</value>
 			</li>
-
-			<!-- Delinquent13 -->
-			<!-- MilitaryCadet46 -->
-
-			<!-- ShipBoy89 -->
-			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="ShipBoy89"]/description</xpath>
-				<value>
-					<description>[PAWN_nameDef] was born to low-ranked servants on an sea-faring ship. The crew [PAWN_pronoun] worked for was like a second family.\n\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch.</description>
-				</value>
-			</li>
-
-			<!-- Artilleryman28 -->
-			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="Artilleryman28"]/description</xpath>
-				<value>
-					<description>[PAWN_nameDef] loaded ammunition and aimed artillery to pound [PAWN_possessive] army's enemies from afar.</description>
-				</value>
-			</li>
-
-			<!-- InfantryEngineer46 -->
-			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/description</xpath>
-				<value>
-					<description>Despite being in an infantry battalion, [PAWN_nameDef] rarely fought in battle. [PAWN_possessive] specialty was the rapid construction of defenses, traps and siege engines.</description>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-				<xpath>/Defs/BackstoryDef[defName="InfantryEngineer46"]/title</xpath>
-				<value>
-					<title>siege engineer</title>
-    			</value>
-			</li>
-
 		</operations>
 	</Operation>
 

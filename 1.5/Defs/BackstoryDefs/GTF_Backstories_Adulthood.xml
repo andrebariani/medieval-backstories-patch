@@ -7,14 +7,98 @@
     <slot>Adulthood</slot>
     <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
     <skillGains>
-      <Social>4</Social>
       <Artistic>5</Artistic>
-      <Melee>2</Melee>
+      <Social>4</Social>
       <Shooting>2</Shooting>
+      <Melee>2</Melee>
     </skillGains>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
   </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_WreckageExplorer93</defName>
+    <title>ruins explorer</title>
+    <titleShort>explorer</titleShort>
+    <description>[PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the abandoned ruins scattered across the land.</description>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Animals>3</Animals>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Mathematician6</defName>
+    <title>mathematician</title>
+    <titleShort>professor</titleShort>
+    <description>[PAWN_nameDef] did research in various subjects at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time in a nearby archery range, though [PAWN_pronoun] was frequently ridiculed by others for [PAWN_possessive] terrible aim.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>-3</Shooting>
+      <Intellectual>8</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <possessions>
+      <TextBook>1</TextBook>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_SpacePirate55</defName>
+    <title>pirate</title>
+    <titleShort>pirate</titleShort>
+    <description>Piracy appears everywhere that governments are weak and society spread thin. [PAWN_nameDef] was part of this tradition, extorting and smashing peaceful trade ships for profit.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+      <Shooting>4</Shooting>
+    </skillGains>
+    <spawnCategories><li>Medieval</li><li>MedievalCommon</li><li>MedievalKnight</li></spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_FurnitureBuilder83</defName>
+    <title>furniture builder</title>
+    <titleShort>builder</titleShort>
+      <description>[PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy clients.</description>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Construction>4</Construction>
+      <Plants>3</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
 </Defs>
