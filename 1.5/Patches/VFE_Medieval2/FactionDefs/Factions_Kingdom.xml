@@ -7,9 +7,9 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-				<!-- <li Class="PatchOperationReplace">
+				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/backstoryFilters/li</xpath>
+						/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/backstoryCategories/li</xpath>
 					<value>
 						<li>
 							<categories>
@@ -21,19 +21,8 @@
 								<li>MedievalCommon</li>
 							</categories>
 						</li>
-						<li>
-							<categories>
-								<li>MedievalKnight</li>
-							</categories>
-						</li>
-						<li>
-							<categories>
-								<li>MedievalRoyal</li>
-							</categories>
-							<commonality>0.05</commonality>
-						</li>
 					</value>
-				</li> -->
+				</li>
 			</operations>
 		</match>
 	</Operation>

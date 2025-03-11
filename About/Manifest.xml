@@ -12,6 +12,7 @@
 		<li>BotchJob.divineorder</li>
 		<li>BotchJob.Profaned</li>
 		<li>Accurex.MedievalEmpireOverhaul</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
 	</loadAfter>
 	<showCrossPromotions>true</showCrossPromotions>
 </Manifest>

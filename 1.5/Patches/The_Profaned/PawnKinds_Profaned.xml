@@ -19,6 +19,7 @@
 									<li>Medieval</li>
 									<li>MedievalCommon</li>
 									<li>MedievalKnight</li>
+									<li>MedievalHigh</li>
 								</categories>
 							</li>
 						</backstoryFilters>
@@ -33,6 +34,7 @@
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
 						<li>MedievalKnight</li>
+						<li>MedievalHigh</li>
 					</value>
 				</li>
 
@@ -44,6 +46,7 @@
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
 						<li>MedievalKnight</li>
+						<li>MedievalHigh</li>
 					</value>
 				</li>
 
@@ -55,6 +58,7 @@
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
 						<li>MedievalKnight</li>
+						<li>MedievalHigh</li>
 					</value>
 				</li>
 
@@ -66,6 +70,7 @@
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
 						<li>MedievalKnight</li>
+						<li>MedievalHigh</li>
 					</value>
 				</li>
 
@@ -77,6 +82,7 @@
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
 						<li>MedievalKnight</li>
+						<li>MedievalHigh</li>
 					</value>
 				</li>
 			</operations>
