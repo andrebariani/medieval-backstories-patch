@@ -36,9 +36,9 @@
 
   <BackstoryDef>
     <defName>GTF_Mathematician6</defName>
-    <title>mathematician</title>
+    <title>academic</title>
     <titleShort>professor</titleShort>
-    <description>[PAWN_nameDef] did research in various subjects at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time in a nearby archery range, though [PAWN_pronoun] was frequently ridiculed by others for [PAWN_possessive] terrible aim.</description>
+    <description>[PAWN_nameDef] did studies in various subjects at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time in a nearby archery range, though [PAWN_pronoun] was frequently ridiculed by others for [PAWN_possessive] terrible aim.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -65,7 +65,7 @@
     <defName>GTF_SpacePirate55</defName>
     <title>pirate</title>
     <titleShort>pirate</titleShort>
-    <description>Piracy appears everywhere that governments are weak and society spread thin. [PAWN_nameDef] was part of this tradition, extorting and smashing peaceful trade ships for profit.</description>
+    <description>[PAWN_nameDef] was part of the piracy tradition, extorting and smashing peaceful trade ships for profit in faraway seas.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Melee>4</Melee>

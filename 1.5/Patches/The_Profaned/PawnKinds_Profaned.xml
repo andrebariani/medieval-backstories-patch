@@ -10,7 +10,7 @@
 			<operations>
 				<li Class="PatchOperationAdd">
 					<xpath>
-						/Defs/PawnKindDef[@Name="BotchJob_ProfanedPawnKindBase"]</xpath>
+						Defs/PawnKindDef[@Name="BotchJob_ProfanedPawnKindBase"]</xpath>
 					<value>
 						<backstoryFilters>
 							<li>
@@ -28,7 +28,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="DankPyon_HedgeKnightRox"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="DankPyon_HedgeKnightRox"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Tribal</li>
 						<li>Medieval</li>
@@ -40,7 +40,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="BotchJob_ProfanedSoldier"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="BotchJob_ProfanedSoldier"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Tribal</li>
 						<li>Medieval</li>
@@ -52,7 +52,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="BotchJob_ProfanedShieldbearer"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="BotchJob_ProfanedShieldbearer"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Tribal</li>
 						<li>Medieval</li>
@@ -64,7 +64,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="BotchJob_ProfanedHeadhunter"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="BotchJob_ProfanedHeadhunter"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Tribal</li>
 						<li>Medieval</li>
@@ -76,7 +76,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[defName="BotchJob_ProfanedCursebearer"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[defName="BotchJob_ProfanedCursebearer"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Tribal</li>
 						<li>Medieval</li>

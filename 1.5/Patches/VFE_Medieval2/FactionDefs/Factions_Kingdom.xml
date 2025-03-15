@@ -9,18 +9,10 @@
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/backstoryCategories/li</xpath>
+						Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/backstoryCategories/li</xpath>
 					<value>
-						<li>
-							<categories>
-								<li>Medieval</li>
-							</categories>
-						</li>
-						<li>
-							<categories>
-								<li>MedievalCommon</li>
-							</categories>
-						</li>
+						<li>Medieval</li>
+						<li>MedievalCommon</li>
 					</value>
 				</li>
 			</operations>

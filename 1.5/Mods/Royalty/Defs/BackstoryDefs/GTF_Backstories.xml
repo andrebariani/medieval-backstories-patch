@@ -41,7 +41,7 @@
     <defName>GTF_Delinquent13</defName>
     <title>delinquent</title>
     <titleShort>delinquent</titleShort>
-    <description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the military.</description>
+    <description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the army.</description>
     <slot>Childhood</slot>
     <spawnCategories><li>MedievalKnight</li><li>MedievalRoyal</li><li>MedievalHigh</li></spawnCategories>
     <skillGains>
@@ -59,7 +59,7 @@
 
   <BackstoryDef>
     <defName>GTF_MilitaryCook18</defName> 
-    <title>military cook</title>
+    <title>army cook</title>
     <titleShort>army cook</titleShort>
     <description>They say an army marches on its stomach. [PAWN_nameDef]'s job was to prepared chow to keep [PAWN_possessive] unit marching, no matter the conditions.
 \nThe job required [PAWN_objective] to pay attention to both the nutritional and psychological needs of the troops.</description>
@@ -84,7 +84,7 @@
     <title>line infanteer</title>
     <titleShort>infanteer</titleShort>
     <description>[PAWN_nameDef] was an ordinary infanteer in an imperial battalion.
-\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] officers. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it.</description>
+\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] superiors. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -102,7 +102,7 @@
     <defName>GTF_Warmonger35</defName>
     <title>warmonger</title>
     <titleShort>warmonger</titleShort>
-    <description>[PAWN_nameDef] revelled in bloodshed. Soldiers who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation.</description>
+    <description>[PAWN_nameDef] revelled in bloodshed. Those who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -140,10 +140,10 @@
 
   <BackstoryDef>
     <defName>GTF_MilitaryCadet46</defName>
-    <title>military cadet</title>
+    <title>army cadet</title>
     <titleShort>cadet</titleShort>
-    <description>[PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to become a soldier. [PAWN_pronoun] lived in barracks with other military kids, learning about duty, weapons, pain, and victory.
-\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted soldiers who can think independently.</description>
+    <description>[PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to join a local army. [PAWN_pronoun] lived in barracks with other kids, learning about duty, weapons, pain, and victory.
+\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted fighters who can think independently.</description>
     <slot>Childhood</slot>
     <spawnCategories><li>MedievalKnight</li><li>MedievalRoyal</li><li>MedievalHigh</li></spawnCategories>
     <skillGains>
@@ -161,7 +161,7 @@
     <title>royal guard</title>
     <titleShort>guard</titleShort>
     <description>[PAWN_nameDef] guarded the personal palace of a powerful lord.
-\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns.</description>
+\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and weapons.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -179,8 +179,8 @@
 
   <BackstoryDef>
     <defName>GTF_PiousSoldier67</defName>
-    <title>pious soldier</title>
-    <titleShort>pious soldier</titleShort>
+    <title>pious fighter</title>
+    <titleShort>pious fighter</titleShort>
     <description>When not training or combat, [PAWN_nameDef] was often at the chaplain's side. [PAWN_pronoun] dedicated [PAWN_possessive] life to serving both [PAWN_possessive] lord and [PAWN_possessive] religion.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -199,8 +199,8 @@
     <defName>GTF_Warmaster54</defName>
     <title>warmaster</title>
     <titleShort>warmaster</titleShort>
-    <description>[PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw military aspects of the family's strategy.
-\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the military commanders.</description>
+    <description>[PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw martial aspects of the family's strategy.
+\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the commanders.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>

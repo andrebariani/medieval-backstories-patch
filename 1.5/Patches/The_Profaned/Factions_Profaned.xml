@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="BotchJob_ProfanedFaction"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[defName="BotchJob_ProfanedFaction"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>
@@ -24,7 +24,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/FactionDef[defName="BotchJob_ProfanedPlayerFaction"]/backstoryFilters/li</xpath>
+						Defs/FactionDef[defName="BotchJob_ProfanedPlayerFaction"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>

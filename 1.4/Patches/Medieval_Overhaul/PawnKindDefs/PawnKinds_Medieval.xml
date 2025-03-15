@@ -10,7 +10,7 @@
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[@Name="DankPyon_MedievalPawnKindBase"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[@Name="DankPyon_MedievalPawnKindBase"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>
@@ -20,7 +20,7 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>
-						/Defs/PawnKindDef[@Name="DankPyon_BrigandPawnKindBase"]/backstoryCategories/li[text()="Tribal"]</xpath>
+						Defs/PawnKindDef[@Name="DankPyon_BrigandPawnKindBase"]/backstoryCategories/li[text()="Tribal"]</xpath>
 					<value>
 						<li>Medieval</li>
 						<li>MedievalCommon</li>

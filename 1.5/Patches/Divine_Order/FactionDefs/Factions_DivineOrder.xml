@@ -9,7 +9,7 @@
       <!-- <success>Always</success> -->
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/FactionDef[defName="BotchJob_DivineOrderFaction"]/backstoryFilters/li</xpath>
+          <xpath>Defs/FactionDef[defName="BotchJob_DivineOrderFaction"]/backstoryFilters/li</xpath>
           <value>
             <li>
 							<categories>
@@ -21,7 +21,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/FactionDef[defName="BotchJob_DivineOrderPlayerFaction"]/backstoryFilters/li</xpath>
+          <xpath>Defs/FactionDef[defName="BotchJob_DivineOrderPlayerFaction"]/backstoryFilters/li</xpath>
           <value>
             <li>
 							<categories>

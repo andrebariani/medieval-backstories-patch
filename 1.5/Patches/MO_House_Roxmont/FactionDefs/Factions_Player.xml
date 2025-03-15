@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/FactionDef[defName="DankPyon_LoneRoxKnight"]/backstoryFilters/li</xpath>
+					<xpath>Defs/FactionDef[defName="DankPyon_LoneRoxKnight"]/backstoryFilters/li</xpath>
 					<value>
 						<li>
 							<categories>

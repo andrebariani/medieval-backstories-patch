@@ -8,7 +8,7 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Royalty">
-          <xpath>/Defs/PawnKindDef[@Name="VFEE_DeserterBase"]/backstoryFiltersOverride</xpath>
+          <xpath>Defs/PawnKindDef[@Name="VFEE_DeserterBase"]/backstoryFiltersOverride</xpath>
           <value>
             <backstoryFiltersOverride>
               <li>
