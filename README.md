@@ -27,7 +27,7 @@ The ones with an asterisk (*) also had their descriptions and titles edited to f
 | **Slaughterer\***     | **Smuggler\***           | **Space Pirate\***       | **Space Raider\***      |
 | **Space Smuggler\***  | **Space Tactician\***    | **Spy\***                | **Story Writer\***      |
 | **Teacher\***         | **Tournament Fighter\*** | **Vengeful Nomad\***     | **Wandering Crafter\*** |
-| **Wandering Healer\***| War Refugee              | **Veterinarian**         | **Wreckage Explorer\*** |
+| **Wandering Healer\***| War Refugee              | Veterinarian             | **Wreckage Explorer\*** |
 
 ---
 
