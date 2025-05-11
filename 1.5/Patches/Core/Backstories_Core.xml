@@ -4,7 +4,6 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<!-- Adds spawn categories -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
 					defName="SpaceSmuggler6"
@@ -35,6 +34,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
 					defName="Inventor6" or
+					defName="Housemate8" or
 					defName="Recruiter14" or
 					defName="MafiaBoss17" or
 					defName="Pyromaniac18" or
@@ -56,10 +56,12 @@
 					defName="Evangelist39" or
 					defName="Jailbird40" or
 					defName="WanderingCrafter42" or
+					defName="Rancher43" or
 					defName="PlagueChild44" or
 					defName="CaveExplorer45" or
 					defName="ChildSpy47" or
 					defName="WarRefugee51" or
+					defName="WanderingHealer52" or
 					defName="ColonySettler53" or
 					defName="MachineCollector55" or
 					defName="Slaughterer58" or
@@ -84,9 +86,11 @@
 					defName="MusicalKid86" or
 					defName="ContractMiner86" or
 					defName="Hunter89" or
+					defName="EscapedConvict90" or
 					defName="WreckageExplorer93" or
 					defName="Ranger96" or
 					defName="Forester96" or
+					defName="Veterinarian99" or
 					defName="Gardener99"
 					]
 					/spawnCategories</xpath>
@@ -133,6 +137,7 @@
 					defName="MercenaryRecruit36" or
 					defName="WanderingCrafter42" or
 					defName="PlagueChild44" or
+					defName="WanderingHealer52" or
 					defName="Spy58" or
 					defName="SelflessHunter61" or
 					defName="VengefulNomad67" or
@@ -180,6 +185,16 @@
 					<description>As a peddler, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own transport, and used it to travel the land dealing [PAWN_possessive] goods.</description>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Smuggler23"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+						<li>Caring</li>
+						<li>Social</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
 
 			<!-- SpaceSmuggler6 -->
 			<li Class="PatchOperationReplace">
@@ -192,6 +207,16 @@
 				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/title</xpath>
 				<value>
 					<title>smuggler Kid</title>
+    			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+						<li>Caring</li>
+						<li>Social</li>
+					</requiredWorkTags>
     			</value>
 			</li>
 
@@ -208,10 +233,12 @@
 					<title>war tactician</title>
     			</value>
 			</li>
-			<li Class="PatchOperationAdd">
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="SpaceTactician28"]/requiredWorkTags</xpath>
 				<value>
-					<li>Violent</li>
+					<requiredWorkTags>
+						<li>Violent</li>
+					</requiredWorkTags>
     			</value>
 			</li>
 
@@ -262,19 +289,53 @@
     			</value>
 			</li>
 
-			<!-- MercenaryRecruit18 -->
+			<!-- WanderingHealer52 -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/BackstoryDef[defName="MercenaryRecruit18"]/skillGains</xpath>
+				<xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/description</xpath>
 				<value>
-					<skillGains>
-						<Melee>8</Melee>
-						<Social>5</Social>
-					</skillGains>
+					<description>[PAWN_nameDef] studied to be a doctor, but was dissatisfied with [PAWN_possessive] practice on an otherwise peaceful home town.\n\nInstead, [PAWN_pronoun] chose to pull up roots and travel to faraway lands in order to care for people who needed [PAWN_objective] most.</description>
 				</value>
 			</li>
-
-			<!-- Spy58 -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/bodyTypeGlobal</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/bodyTypeMale</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/bodyTypeFemale</xpath>
+			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Caring</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
+
+			<!-- Restorer70 -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="Restorer70"]/bodyTypeGlobal</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="Restorer70"]/bodyTypeMale</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="Restorer70"]/bodyTypeFemale</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Restorer70"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>ManualDumb</li>
+      					<li>ManualSkilled</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
+			
+			<!-- Spy58 -->
+			 <li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="Spy58"]/description</xpath>
 				<value>
 					<description>[PAWN_nameDef] was trained by [PAWN_possessive] guild in infiltration and espionage. [PAWN_pronoun] learned to keep a cool head and to talk [PAWN_possessive] way out of tight situations. When talking didn't work, [PAWN_pronoun] was capable of more violent direct action.</description>
@@ -289,6 +350,14 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/BackstoryDef[defName="Spy58"]/bodyTypeFemale</xpath>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="Spy58"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
 
 			<!-- SelflessHunter61 -->
 			<li Class="PatchOperationRemove">
@@ -300,6 +369,14 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/BackstoryDef[defName="SelflessHunter61"]/bodyTypeFemale</xpath>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="SelflessHunter61"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
 
 			<!-- WanderingCrafter42 -->
 			<li Class="PatchOperationRemove">
@@ -310,6 +387,15 @@
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/BackstoryDef[defName="WanderingCrafter42"]/bodyTypeFemale</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="WanderingCrafter42"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>ManualDumb</li>
+						<li>ManualSkilled</li>
+					</requiredWorkTags>
+    			</value>
 			</li>
 
 			<!-- ColiseumCleaner54 -->
@@ -341,12 +427,20 @@ During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience
 [PAWN_pronoun] experienced little social interaction. However, [PAWN_pronoun] gained a lot of medical experience assisting in treatments.</description>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="PlagueChild44"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Caring</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
 
 			<!-- PlagueDoctor31 -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="PlagueDoctor31"]/description</xpath>
 				<value>
-					<description>[PAWN_nameDef] provided medical care on multiple plague-wracked villages, always working under the Hippocratic oath. [PAWN_pronoun] improved conditions for those under quarantine while administering complex medical treatments and developing medicines.
+					<description>[PAWN_nameDef] provided medical care on multiple plague-wracked places, always working under the Hippocratic oath. [PAWN_pronoun] improved conditions for those under quarantine while administering complex medical treatments and developing medicines.
 
 [PAWN_pronoun] never had time to enjoy a normal life outside of work.</description>
 				</value>
@@ -389,6 +483,15 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 					</skillGains>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="MercenaryRecruit18"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+						<li>Social</li>
+					</requiredWorkTags>
+    			</value>
+			</li>
 
 			<!-- VengefulNomad67 -->
 			<li Class="PatchOperationReplace">
@@ -396,6 +499,24 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 				<value>
 					<description>After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n[PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a smithy, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.</description>
 				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/bodyTypeGlobal</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/bodyTypeMale</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/bodyTypeFemale</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>ManualDumb</li>
+						<li>ManualSkilled</li>
+					</requiredWorkTags>
+    			</value>
 			</li>
 
 			<!-- StoryWriter67 -->
@@ -445,6 +566,14 @@ At a young age, [PAWN_pronoun] was recruited into one of the mercenary bands.</d
 					<description>[PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.
 
 [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing sword and staff fighting techniques.</description></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BackstoryDef[defName="RebelliousStudent74"]/requiredWorkTags</xpath>
+				<value>
+					<requiredWorkTags>
+						<li>Violent</li>
+					</requiredWorkTags>
+    			</value>
 			</li>
 
 		</operations>

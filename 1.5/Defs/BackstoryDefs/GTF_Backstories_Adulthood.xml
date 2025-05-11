@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <BackstoryDef>
     <defName>GTF_MedievalMinstrel95</defName>
@@ -6,6 +6,11 @@
     <titleShort>bard</titleShort>
     <slot>Adulthood</slot>
     <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Artistic</li>
+      <li>Social</li>
+    </requiredWorkTags>
     <skillGains>
       <Artistic>5</Artistic>
       <Social>4</Social>
@@ -71,7 +76,11 @@
       <Melee>4</Melee>
       <Shooting>4</Shooting>
     </skillGains>
-    <spawnCategories><li>Medieval</li><li>MedievalCommon</li><li>MedievalKnight</li></spawnCategories>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+      <li>MedievalKnight</li>
+    </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
@@ -93,6 +102,84 @@
       <Construction>4</Construction>
       <Plants>3</Plants>
     </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <!-- Solid Backstories -->
+  <BackstoryDef>
+    <defName>GTF_SpaceRaider71</defName>
+    <identifier>GTF_SpaceRaider71</identifier>
+    <slot>Adulthood</slot>
+    <title>bandit chief</title>
+    <titleShort>bandit</titleShort>
+    <description>[PAWN_nameDef] was the leader of a raider crew. Always on the run, [PAWN_pronoun] became the feared enemy of many settlements.</description>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Melee>3</Melee>
+      <Social>5</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_ExiledResearcher44</defName>
+    <identifier>GTF_ExiledResearcher44</identifier>
+    <slot>Adulthood</slot>
+    <title>exiled researcher</title>
+    <titleShort>exile</titleShort>
+    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled her, and [PAWN_pronoun] was never allowed to return.</description>
+    <skillGains>
+      <Intellectual>8</Intellectual>
+      <Shooting>2</Shooting>
+      <Medicine>4</Medicine>
+      <Artistic>2</Artistic>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_PoisonGardener29</defName>
+    <identifier>GTF_PoisonGardener29</identifier>
+    <slot>Adulthood</slot>
+    <title>poison gardener</title>
+    <titleShort>botanist</titleShort>
+    <description>[PAWN_nameDef] spent almost all [PAWN_possessive] time tending to a poison garden and became withdrawn from society.\n\nIn that time [PAWN_pronoun] learnt a few safe culinary and medicinal uses for the otherwise deadly plants.</description>
+    <skillGains>
+      <Plants>4</Plants>
+      <Intellectual>1</Intellectual>
+      <Cooking>2</Cooking>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
