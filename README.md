@@ -10,22 +10,24 @@ The ones with an asterisk (*) also had their descriptions and titles edited to f
 
 ### Core:
 
-| Actor               | Adventuring Child  | Animal Farmer       | **Apprentice Smith\*** |
-|:--------------------|:-------------------|:--------------------|:-----------------------|
-| Ascetic Priest      | Assassin           | **Bartender\***      | Bodyguard              |
-| Cave Explorer       | Child Of Drifters  | Child Spy           | **Coliseum Fighter\***  |
-| **Colony Settler\*** | Con Artist         | **Contract Miner\*** | Defector               |
-| **Drifter\***       | Evangelist         | Forester            | **Furniture Builder\***|
-| **Geologist\***     | Gardener           | **Gigolo**           | Hermit                 |
-| Hunter              | House Servant      | **Inventor\***       | Jailbird               |
-| **Machine Collector\*** | **Mafia Boss\***  | **Mathematician\***  | **Medieval Nomad\***   |
-| **Mercenary Recruit\*** | Musical Kid       | Nurse               | Pit Brawler            |
-| **Plague Child\***   | **Plague Doctor\***| Pyromaniac          | Quarry Worker          |
-| Ranger              | **Rebellious Student\*** | **Recruiter\***    | Restorer               |
-| Scavenger           | **Selfless Hunter\*** | Shop Kid           | **Slaughterer\***      |
-| **Smuggler\***      | **Space Pirate\***  | **Space Smuggler\*** | **Space Tactician\***  |
-| **Spy\***           | **Story Writer\***  | **Teacher\***        | **Tournament Fighter\***|
-| **Vengeful Nomad\*** | **Wandering Crafter\*** | War Refugee        | **Wreckage Explorer\***|
+| Actor                   | Adventuring Child       | Animal Farmer            | **Apprentice Smith\***   |
+| :---------------------- | :---------------------- | :----------------------- | :----------------------- |
+| Ascetic Priest          | Assassin                | **Bartender\***          | Bodyguard                |
+| Cave Explorer           | Child Of Drifters       | Child Spy                | **Coliseum Fighter\***   |
+| **Colony Settler\***    | Con Artist              | **Contract Miner\***     | Defector                 |
+| **Drifter\***           | Evangelist              | **Exiled Researcher\***  | Forester                 |
+| **Furniture Builder\*** | **Geologist\***         | Gardener                 | Hermit                   |
+| **Gigolo**              | House Servant           | Hunter                   | **Inventor\***           |
+| Jailbird                | **Machine Collector\*** | **Mafia Boss\***         | **Mathematician\***      |
+| **Medieval Nomad\***    | **Mercenary Recruit\*** | Musical Kid              | Nurse                    |
+| **Plague Child\***      | **Plague Doctor\***     | **Poison Gardener\***    | Pit Brawler              |
+| Pyromaniac              | Quarry Worker           | Ranger                   | **Rebellious Student\*** |
+| **Recruiter\***         | Restorer                | Scavenger                | **Selfless Hunter\***    |
+| Shop Kid                | **Slaughterer\***       | **Smuggler\***           | **Space Pirate\***       |
+| **Space Raider\***      | **Space Smuggler\***    | **Space Tactician\***    | **Spy\***                |
+| **Story Writer\***      | **Teacher\***           | **Tournament Fighter\*** | **Vengeful Nomad\***     |
+| **Wandering Crafter\*** | **Wandering Healer\***  | War Refugee              | **Wreckage Explorer\***  |
+
 
 ---
 
