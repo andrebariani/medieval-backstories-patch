@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Medieval Common -->
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/BackstoryDef[
+					defName="MenagerieKeeper1" or
+					defName="RoyalCook18" or
+					defName="ImperialPriest24" or
+					defName="HeadButler50" or
+					defName="ImperialInquisitor53" or
+					defName="OrnamentMaker56" or
+					defName="BalletDancer81" or
+					defName="HouseServant86" or
+					defName="ChurchPsychic98"
+					]
+					/spawnCategories</xpath>
+				<value>
+					<li>MedievalCommon</li>
+				</value>
+			</li>
+			
+			<!-- Medieval Knight -->
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/BackstoryDef[
+					defName="InfantryMedic6" or
+					defName="LoyalJanissary59" or
+					defName="Deserter65" or
+					defName="UnwantedSurvivor67"
+					]
+					/spawnCategories</xpath>
+				<value>
+					<li>MedievalKnight</li>
+					<li>MedievalHigh</li>
+				</value>
+			</li>
+
+			<!-- Medieval Royal -->
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Royalty">
+				<xpath>Defs/BackstoryDef[
+					defName="InfantryMedic6" or
+					defName="Regent9" or
+					defName="PamperedLordling37" or
+					defName="Spymaster41" or
+					defName="ArtsPatron54" or
+					defName="LoyalJanissary59" or
+					defName="Beastmaster67" or
+					defName="UnwantedSurvivor67" or
+					defName="UrbanLordling82" or
+					defName="CountryLordling92" or
+					defName="Landworker98"
+					]
+					/spawnCategories</xpath>
+				<value>
+					<li>MedievalRoyal</li>
+					<li>MedievalHigh</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -182,7 +182,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="Smuggler23"]/description</xpath>
 				<value>
-					<description>As a peddler, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own transport, and used it to travel the land dealing [PAWN_possessive] goods.</description>
+					<description>As a peddler, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own transport, and used it to travel around dealing [PAWN_possessive] goods.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

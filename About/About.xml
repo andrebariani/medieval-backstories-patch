@@ -5,9 +5,9 @@
   <description>Patch to include more backstories into the medieval category, including vanilla and from other mods.\n\nSince it is a patch mod, it is recommended to put it last in the mod list load order.</description>
   <packageId>GrassTypeFire.Medieval.BackstoriesPatch</packageId>
   <supportedVersions>
-    <li>1.4</li><li>1.5</li>
+    <li>1.4</li><li>1.5</li><li>1.6</li>
   </supportedVersions>
-  <modVersion>1.0.10</modVersion>
+  <modVersion>1.0.11</modVersion>
   
   <loadAfter>
     <li>DankPyon.Medieval.Overhaul</li>
