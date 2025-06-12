@@ -6,17 +6,6 @@
 		<operations>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
-					defName="SpaceSmuggler6"
-					]</xpath>
-				<value>
-					<spawnCategories>
-						<li>Medieval</li>
-						<li>MedievalCommon</li>
-					</spawnCategories>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BackstoryDef[
 					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="MercenaryRecruit36" or
@@ -127,7 +116,6 @@
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[
-					defName="SpaceSmuggler6" or
 					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="ChildOfDrifters18" or
@@ -175,30 +163,6 @@
 				<xpath>Defs/BackstoryDef[defName="Gigolo30"]/titleFemale</xpath>
 				<value>
 					<titleFemale>courtesean</titleFemale>
-    			</value>
-			</li>
-
-			<!-- SpaceSmuggler6 -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/description</xpath>
-				<value>
-					<description>[PAWN_nameDef]'s parents used [PAWN_objective] to help smuggle contraband across the frontier.\n\nAided by [PAWN_possessive] small size, [PAWN_nameDef] became very adept at carrying out [PAWN_possessive] parents' missions, learning weaponry, negotiations, and most of all smuggling.</description>  
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/title</xpath>
-				<value>
-					<title>smuggler Kid</title>
-    			</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/BackstoryDef[defName="SpaceSmuggler6"]/requiredWorkTags</xpath>
-				<value>
-					<requiredWorkTags>
-						<li>Violent</li>
-						<li>Caring</li>
-						<li>Social</li>
-					</requiredWorkTags>
     			</value>
 			</li>
 
@@ -263,7 +227,6 @@
 			</li>
 
 			<!-- Recruiter14 -->
-			<!-- make version with more martial artist flavor -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[defName="Recruiter14"]/description</xpath>
 				<value>

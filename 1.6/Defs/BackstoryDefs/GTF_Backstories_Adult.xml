@@ -21,6 +21,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -110,7 +112,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
-  <!-- Solid Backstories -->
+  <!-- Solid -->
   <BackstoryDef>
     <defName>GTF_SpaceRaider71</defName>
     <identifier>GTF_SpaceRaider71</identifier>
@@ -171,10 +173,11 @@
     <titleShort>botanist</titleShort>
     <description>[PAWN_nameDef] spent almost all [PAWN_possessive] time tending to a poison garden and became withdrawn from society.\n\nIn that time [PAWN_pronoun] learnt a few safe culinary and medicinal uses for the otherwise deadly plants.</description>
     <skillGains>
-      <Plants>4</Plants>
-      <Intellectual>1</Intellectual>
-      <Cooking>2</Cooking>
-      <Medicine>2</Medicine>
+      <Plants>6</Plants>
+      <Shooting>-3</Shooting>
+      <Melee>-3</Melee>
+      <Cooking>4</Cooking>
+      <Medicine>4</Medicine>
     </skillGains>
     <requiredWorkTags>
       <li>ManualDumb</li>
@@ -186,6 +189,59 @@
     </spawnCategories>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Aromatherapist80</defName>
+    <identifier>GTF_Aromatherapist80</identifier>
+    <slot>Adulthood</slot>
+    <title>aromatherapist</title>
+    <titleShort>therapist</titleShort>
+    <description>[PAWN_nameDef] practiced aromatherapy, using essences extracted from home-grown plants.</description>
+    <skillGains>
+      <Plants>6</Plants>
+      <Shooting>-3</Shooting>
+      <Melee>-3</Melee>
+      <Cooking>4</Cooking>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Taxonomist0</defName>
+    <title>taxonomist</title>
+    <titleShort>taxonomist</titleShort>
+    <description>[PAWN_nameDef] traveled far and wide, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</description>
+    <slot>Adulthood</slot>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Animals>5</Animals>
+      <Plants>5</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <possessions>
+      <TextBook>1</TextBook>
+    </possessions>
   </BackstoryDef>
 
 </Defs>
