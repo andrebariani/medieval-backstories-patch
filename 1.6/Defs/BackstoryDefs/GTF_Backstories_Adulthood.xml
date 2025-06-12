@@ -21,6 +21,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
