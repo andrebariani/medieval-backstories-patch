@@ -33,7 +33,7 @@ The ones with an asterisk (*) also had their descriptions and titles edited to f
 | Scavenger                | **Selfless Hunter\***    | Shop Kid                 | **Slaughterer\***       |
 | **Smuggler\***           | **Space Pirate\***       | **Space Raider\***       | **Space Smuggler\***    |
 | **Space Tactician\***    | **Spy\***                | **Steward's Assistant**  | **Story Writer\***      |
-| Taster                   | Taxonomist               | **Teacher\***            | Tinkerer                |
+| Taster                   | Taxonomist               | **Teacher\***            | **Tinkerer\***          |
 | **Tournament Fighter\*** | **Vengeful Nomad\***     | Veterinarian             | **Wandering Crafter\*** |
 | **Wandering Healer\***   | War Refugee              | Weaver                   | **Wreckage Explorer\*** |
 
