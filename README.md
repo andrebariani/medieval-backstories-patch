@@ -10,25 +10,32 @@ The ones with an asterisk (*) also had their descriptions and titles edited to f
 
 ### Core:
 
-| Actor                 | Adventuring Child        | Animal Farmer            | **Apprentice Smith\***  |
-| :-------------------- | :----------------------- | :----------------------- | :---------------------- |
-| Aromatherapist        | Ascetic Priest           | Assassin                 | **Bartender\***         |
-| Bodyguard             | Cave Explorer            | Child Of Drifters        | Child Spy               |
-| **Coliseum Fighter\***| **Colony Settler\***     | Con Artist               | **Contract Miner\***    |
-| Defector              | **Drifter\***            | Escaped Convict          | Evangelist              |
-| **Exiled Researcher\***| Forester                | **Furniture Builder\***  | **Geologist\***         |
-| Gardener              | **Gigolo**               | Hermit                   | House Servant           |
-| Housemate             | Hunter                   | Idealistic Cadet         | **Inventor\***          |
-| Jailbird              | **Machine Collector\***  | **Mafia Boss\***         | **Mathematician\***     |
-| **Medieval Nomad\***  | **Medieval Thief\***     | **Mercenary Recruit\***  | Musical Kid             |
-| Nurse                 | **Plague Child\***       | **Plague Doctor\***      | **Poison Gardener\***   |
-| Pit Brawler           | Pyromaniac               | Quarry Worker            | Rancher                 |
-| Ranger                | **Rebellious Student\*** | **Recruiter\***          | Restorer                |
-| Scavenger             | **Selfless Hunter\***    | Shop Kid                 | **Slaughterer\***       |
-| **Smuggler\***        | **Space Pirate\***       | **Space Raider\***       | **Space Smuggler\***    |
-| **Space Tactician\*** | **Spy\***                | **Story Writer\***       | Taxonomist              |
-| **Teacher\***         | **Tournament Fighter\*** | **Vengeful Nomad\***     | **Wandering Crafter\*** |
-| **Wandering Healer\***| War Refugee              | Veterinarian             | **Wreckage Explorer\*** |
+| Actor                    | Adventuring Child        | Animal Farmer            | **Apprentice Smith\***  |
+| :----------------------- | :----------------------- | :----------------------- | :---------------------- |
+| **Abandoned Orphan**     | **Abductee**             | **Adventurous Youth**    | Aromatherapist          |
+| Army Cook                | Ascetic Priest           | Assassin                 | **Bartender\***         |
+| Beast Slayer             | Blacksmith               | Bodyguard                | **Bounty Hunter**       |
+| Caravan Traveler         | Caravaneer               | Cave Explorer            | Child Of Drifters       |
+| Child Spy                | **Coliseum Fighter\***   | **Colony Settler\***     | Commoner Lord           |
+| Con Artist               | **Contract Miner\***     | Criminal Surgeon         | Defector                |
+| **Drifter\***            | Escaped Convict          | Evangelist               | Exotic Chef             |
+| **Exiled Researcher\***  | Explorer-Writer          | Forester                 | **Furniture Builder\*** |
+| **Geologist\***          | Gardener                 | **Gigolo**               | Herbalist               |
+| Hermit                   | Hired Assassin           | House Servant            | Housemate               |
+| Hunter                   | Hunter (Solid)           | Idealistic Cadet         | **Inventor\***          |
+| Jailbird                 | **Machine Collector\***  | **Mafia Boss\***         | **Mathematician\***     |
+| Master Trader            | **Medieval Knight**      | **Medieval Nomad\***     | **Medieval Squire**     |
+| **Medieval Thief\***     | **Mercenary Recruit\***  | Minister                 | Missionary              |
+| Musical Kid              | Nurse                    | **Plague Child\***       | **Plague Doctor\***     |
+| **Poison Gardener\***    | Pit Brawler              | Private Detective        | Pyromaniac              |
+| Quarry Worker            | Rancher                  | Ranger                   | Ranger (Solid)          |
+| **Ranger Child**         | **Rebellious Student\*** | **Recruiter\***          | Restorer                |
+| Scavenger                | **Selfless Hunter\***    | Shop Kid                 | **Slaughterer\***       |
+| **Smuggler\***           | **Space Pirate\***       | **Space Raider\***       | **Space Smuggler\***    |
+| **Space Tactician\***    | **Spy\***                | **Steward's Assistant**  | **Story Writer\***      |
+| Taster                   | Taxonomist               | **Teacher\***            | Tinkerer                |
+| **Tournament Fighter\*** | **Vengeful Nomad\***     | Veterinarian             | **Wandering Crafter\*** |
+| **Wandering Healer\***   | War Refugee              | Weaver                   | **Wreckage Explorer\*** |
 
 ---
 
