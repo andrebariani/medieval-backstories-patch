@@ -144,7 +144,7 @@
     <slot>Adulthood</slot>
     <title>exiled researcher</title>
     <titleShort>exile</titleShort>
-    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled [PAWN_objective], and [PAWN_pronoun] was never allowed to return.</description>
+    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. [PAWN_possessive] superiors expelled [PAWN_objective], and [PAWN_pronoun] was never allowed to return.</description>
     <skillGains>
       <Intellectual>8</Intellectual>
       <Shooting>2</Shooting>
@@ -222,16 +222,18 @@
     <defName>GTF_Taxonomist0</defName>
     <title>taxonomist</title>
     <titleShort>taxonomist</titleShort>
-    <description>[PAWN_nameDef] traveled far and wide, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</description>
+    <description>[PAWN_nameDef] traveled through the wilderness, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</description>
     <slot>Adulthood</slot>
     <workDisables>None</workDisables>
     <requiredWorkTags>
       <li>Intellectual</li>
+      <li>Animals</li>
       <li>PlantWork</li>
     </requiredWorkTags>
     <skillGains>
       <Animals>5</Animals>
       <Plants>5</Plants>
+      <Intellectual>4</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>Medieval</li>
@@ -250,7 +252,7 @@
     <slot>Adulthood</slot>
     <title>explorer-writer</title>
     <titleShort>explorer</titleShort>
-    <description>[PAWN_nameDef] traveled from planet to planet, gathering samples, stories, and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.</description>
+    <description>[PAWN_nameDef] traveled far and wide, gathering samples, stories, and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.</description>
     <skillGains>
       <Construction>3</Construction>
       <Plants>3</Plants>
@@ -402,6 +404,7 @@
       <li>Violent</li>
       <li>Caring</li>
       <li>ManualSkilled</li>
+      <li>ManualDumb</li>
     </requiredWorkTags>
     <spawnCategories>
       <li>Hunter</li>
@@ -640,7 +643,7 @@
 
   <BackstoryDef>
     <defName>GTF_Blacksmith72</defName>
-    <title>GTF_blacksmith</title>
+    <title>blacksmith</title>
     <titleShort>blacksmith</titleShort>
     <description>As a smith, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.</description>
     <slot>Adulthood</slot>

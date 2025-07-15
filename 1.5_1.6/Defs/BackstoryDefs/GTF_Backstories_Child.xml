@@ -120,7 +120,9 @@ The constant orders from [PAWN_possessive] captain, however, fostered a defiant 
       <Animals>2</Animals>
     </skillGains>  
     <workDisables>None</workDisables>  
-    <requiredWorkTags>None</requiredWorkTags>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
@@ -239,7 +241,7 @@ Accustomed to manual labor and with an intuitive mind, [PAWN_nameDef] could surv
     <titleShort>tinkerer</titleShort>  
     <description>[PAWN_nameDef] spent [PAWN_possessive] spare time creating things from [PAWN_possessive] imagination out of scrap metal and discarded machinery.
 
-[PAWN_pronoun] created simple robots and small tools, for both for fun and for utility.</description>  
+[PAWN_pronoun] created simple doodads and small tools, for both for fun and for utility.</description>  
     <skillGains>
       <Intellectual>3</Intellectual>    
       <Melee>-2</Melee>    
@@ -309,7 +311,7 @@ Accustomed to manual labor and with an intuitive mind, [PAWN_nameDef] could surv
     <defName>GTF_MedievalSquire5</defName>
     <identifier>GTF_MedievalSquire5</identifier>  
     <slot>Childhood</slot>  
-    <title>medieval squire</title>  
+    <title>squire</title>  
     <titleShort>squire</titleShort>  
     <description>[PAWN_nameDef] grew up as a knight in training. [PAWN_pronoun] trained directly under the king's war adviser for most of [PAWN_possessive] youth, and learned to fight with many martial weapons.</description>  
     <skillGains>

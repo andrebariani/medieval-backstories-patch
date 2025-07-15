@@ -6,7 +6,6 @@
 		<operations>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/BackstoryDef[
-					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="MercenaryRecruit36" or
 					defName="RebelliousStudent74"
@@ -78,7 +77,6 @@
 					defName="ContractMiner86" or
 					defName="Hunter89" or
 					defName="EscapedConvict90" or
-					defName="WreckageExplorer93" or
 					defName="Ranger96" or
 					defName="Forester96" or
 					defName="Veterinarian99" or
@@ -118,7 +116,6 @@
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/BackstoryDef[
-					defName="MedievalNomad12" or
 					defName="MercenaryRecruit18" or
 					defName="ChildOfDrifters18" or
 					defName="Smuggler23" or
