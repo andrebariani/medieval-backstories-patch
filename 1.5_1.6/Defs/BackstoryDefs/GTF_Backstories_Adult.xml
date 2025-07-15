@@ -350,7 +350,10 @@
       <Crafting>1</Crafting>
     </skillGains>
     <workDisables>None</workDisables>
-    <requiredWorkTags><li>ManualSkilled</li></requiredWorkTags>
+    <requiredWorkTags>
+      <li>Cooking</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
@@ -408,6 +411,30 @@
     </requiredWorkTags>
     <spawnCategories>
       <li>Hunter</li>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>MasterTrader65</defName>
+    <identifier>MasterTrader65</identifier>
+    <slot>Adulthood</slot>
+    <title>master trader</title>
+    <titleShort>trader</titleShort>
+    <description>[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time.</description>
+    <skillGains>
+      <Social>8</Social>
+      <Cooking>2</Cooking>
+      <Artistic>4</Artistic>
+    </skillGains>
+    <workDisables>Mining</workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Cooking</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
