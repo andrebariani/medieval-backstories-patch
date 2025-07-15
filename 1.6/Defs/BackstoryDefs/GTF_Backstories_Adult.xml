@@ -144,7 +144,7 @@
     <slot>Adulthood</slot>
     <title>exiled researcher</title>
     <titleShort>exile</titleShort>
-    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled her, and [PAWN_pronoun] was never allowed to return.</description>
+    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled [PAWN_objective], and [PAWN_pronoun] was never allowed to return.</description>
     <skillGains>
       <Intellectual>8</Intellectual>
       <Shooting>2</Shooting>
@@ -244,4 +244,424 @@
     </possessions>
   </BackstoryDef>
 
+  <BackstoryDef>
+    <defName>GTF_ExplorerWriter10</defName>
+    <identifier>GTF_ExplorerWriter10</identifier>
+    <slot>Adulthood</slot>
+    <title>explorer-writer</title>
+    <titleShort>explorer</titleShort>
+    <description>[PAWN_nameDef] traveled from planet to planet, gathering samples, stories, and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.</description>
+    <skillGains>
+      <Construction>3</Construction>
+      <Plants>3</Plants>
+      <Intellectual>4</Intellectual>
+      <Cooking>2</Cooking>
+      <Medicine>3</Medicine>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags><li>ManualSkilled</li></requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <possessions>
+      <TextBook>1</TextBook>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_PrivateDetective66</defName>
+    <identifier>GTF_PrivateDetective66</identifier>
+    <slot>Adulthood</slot>
+    <title>private detective</title>
+    <titleShort>detective</titleShort>
+    <description>As a private eye, sharp wits and a silver tongue were [PAWN_nameDef]'s greatest tools. [PAWN_pronoun] often spent [PAWN_possessive] nights working cases that ranged from uncovering affairs and learning trade secrets to solving murder cases and infiltrating criminal organizations. There wasn't a case [PAWN_pronoun] wouldn't accept for the right price.</description>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>7</Social>
+    </skillGains>
+    <workDisables>PlantWork, Mining</workDisables>
+    <requiredWorkTags><li>Social</li><li>Intellectual</li></requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Caravaneer53</defName>
+    <identifier>GTF_Caravaneer53</identifier>
+    <slot>Adulthood</slot>
+    <title>caravaneer</title>
+    <titleShort>caravaneer</titleShort>
+    <description>[PAWN_nameDef] was the leader of a caravan. [PAWN_pronoun] was responsible for the safety of [PAWN_possessive] caravan and was the head negotiator in countless trade deals.\n\n[PAWN_pronoun] and [PAWN_possessive] people prospered, but their wealth made them a target for brigands. They often had to take up arms to fend off bandits and highwaymen.</description>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Social>7</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_BeastSlayer67</defName>
+    <identifier>GTF_BeastSlayer67</identifier>
+    <slot>Adulthood</slot>
+    <title>beast slayer</title>
+    <titleShort>slayer</titleShort>
+    <description>[PAWN_nameDef] traveled between settlements, following news of animal attacks. [PAWN_pronoun] would camp out in the wild for weeks, learning about [PAWN_possessive] prey before striking. [PAWN_pronoun] most enjoyed hunting thrumbos.\n\nPreferring to work alone, [PAWN_nameDef] enjoyed the thrill of the hunt, and the meat from the kill.</description>
+    <skillGains>
+      <Plants>2</Plants>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+      <Cooking>3</Cooking>
+    </skillGains>
+    <workDisables>Caring</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_ExoticChef96</defName>
+    <identifier>GTF_ExoticChef96</identifier>
+    <slot>Adulthood</slot>
+    <title>exotic chef</title>
+    <titleShort>chef</titleShort>
+    <description>[PAWN_nameDef] has always gone overboard when it comes to food. [PAWN_pronoun] is always seeking new and exotic ingredients.\n\n[PAWN_possessive] quest for ingredients has brought [PAWN_objective] into some close calls with local flora and fauna.</description>
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Artistic>2</Artistic>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags><li>ManualSkilled</li></requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <possessions>
+      <Meat_Thrumbo>10</Meat_Thrumbo>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Hunter73</defName>
+    <identifier>GTF_Hunter73</identifier>
+    <slot>Adulthood</slot>
+    <title>skilled hunter</title>
+    <titleShort>hunter</titleShort>
+    <description>[PAWN_nameDef] was a master hunter.\n\n[PAWN_pronoun] learned to track and trap any animal in the most dangerous of places, and had deep knowledge of many ingenious methods for taking down specific large animals.</description>
+    <skillGains>
+      <Plants>2</Plants>
+      <Shooting>6</Shooting>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <workDisables>Mining</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Tribal</li>
+      <li>Hunter</li>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Ranger6</defName>
+    <identifier>GTF_Ranger6</identifier>
+    <slot>Adulthood</slot>
+    <title>ranger</title>
+    <titleShort>ranger</titleShort>
+    <description>[PAWN_nameDef] lived alone, deep in a forest. [PAWN_pronoun] protected the wildlife against poachers, and learned to satisfy [PAWN_possessive] own material needs without outside help.</description>
+    <skillGains>
+      <Construction>2</Construction>
+      <Plants>2</Plants>
+      <Shooting>4</Shooting>
+      <Cooking>2</Cooking>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables>Artistic</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Hunter</li>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_CriminalSurgeon99</defName>
+    <identifier>GTF_CriminalSurgeon99</identifier>
+    <slot>Adulthood</slot>
+    <title>criminal surgeon</title>
+    <titleShort>surgeon</titleShort>
+    <description>Being near many injured fellow criminals, [PAWN_nameDef] took it upon [PAWN_objective]self to work on them. Although many people died, [PAWN_pronoun] did get better at using knives.</description>
+    <skillGains>
+      <Intellectual>-3</Intellectual>
+      <Melee>6</Melee>
+      <Social>-2</Social>
+      <Medicine>5</Medicine>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_BountyHunter17</defName>
+    <identifier>GTF_BountyHunter17</identifier>
+    <slot>Adulthood</slot>
+    <title>bounty hunter</title>
+    <titleShort>hunter</titleShort>
+    <description>[PAWN_nameDef] was a self-employed bounty hunter. [PAWN_pronoun] spent [PAWN_possessive] days hunting outlaws and collecting cash bounties.</description>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>4</Melee>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables>Cleaning</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Minister88</defName>
+    <identifier>GTF_Minister88</identifier>
+    <slot>Adulthood</slot>
+    <title>minister</title>
+    <titleShort>minister</titleShort>
+    <description>[PAWN_nameDef] managed to secure an important position in the court of a minor noble house. [PAWN_pronoun] got used to the opulence, while attempting to keep [PAWN_possessive] citizens content. [PAWN_pronoun] had ample time for pleasure and indulgence – though [PAWN_pronoun] never forgot how to do hard work.</description>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Shooting>2</Shooting>
+      <Social>4</Social>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>ManualDumb</workDisables>
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+      <li>MedievalHigh</li>
+      <li>MedievalRoyal</li>
+    </spawnCategories>
+    <forcedTraits>
+      <Industriousness>1</Industriousness>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_HiredAssassin37</defName>
+    <identifier>GTF_HiredAssassin37</identifier>
+    <slot>Adulthood</slot>
+    <title>hired assassin</title>
+    <titleShort>assassin</titleShort>
+    <description>[PAWN_nameDef] was a master thief, working mostly for organized crime. Over time, [PAWN_pronoun] made a name for [PAWN_objective]self and shifted [PAWN_possessive] business into the paid "removal" of human threats.</description>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>5</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <forcedTraits>
+      <Nimble>0</Nimble>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Missionary99</defName>
+    <identifier>GTF_Missionary99</identifier>
+    <slot>Adulthood</slot>
+    <title>missionary</title>
+    <titleShort>missionary</titleShort>
+    <description>[PAWN_nameDef] decided to devote [PAWN_possessive] life to religious service. [PAWN_pronoun] made a vow of peace and spent several years preaching and helping those who needed the most.</description>
+    <skillGains>
+      <Social>6</Social>
+      <Cooking>4</Cooking>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables>Violent</workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_ArmyCook0</defName>
+    <identifier>GTF_ArmyCook0</identifier>
+    <slot>Adulthood</slot>
+    <title>army cook</title>
+    <titleShort>cook</titleShort>
+    <description>[PAWN_nameDef] joined the army as a worker and spent most of [PAWN_possessive] time cooking and repairing. While [PAWN_pronoun] was stationed on a conflictuous frontier, [PAWN_pronoun] underwent basic combat and survival training.</description>
+    <skillGains>
+      <Construction>2</Construction>
+      <Intellectual>-2</Intellectual>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+      <Cooking>3</Cooking>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+      <li>MedievalKnight</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_CommonerLord45</defName>
+    <identifier>GTF_CommonerLord45</identifier>
+    <slot>Adulthood</slot>
+    <title>commoner lord</title>
+    <titleShort>lord</titleShort>
+    <description>After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\nBecause of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective].</description>
+    <skillGains>
+      <Melee>7</Melee>
+      <Social>6</Social>
+    </skillGains>
+    <workDisables>Cooking, Cleaning</workDisables>
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+      <li>MedievalKnight</li>
+      <li>MedievalHigh</li>
+      <li>MedievalLoyal</li>
+    </spawnCategories>
+    <possessions>
+      <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_MedievalKnight26</defName>
+    <identifier>GTF_MedievalKnight26</identifier>
+    <slot>Adulthood</slot>
+    <title>medieval knight</title>
+    <titleShort>knight</titleShort>
+    <description>[PAWN_nameDef] fought for king and country on the battlefield, where [PAWN_pronoun] further honed [PAWN_possessive] skill as a swordfighter. [PAWN_possessive] greatest glory was leading a charge into an enemy courtroom and capturing the king at sword point.</description>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>6</Melee>
+    </skillGains>
+    <workDisables>Cleaning</workDisables>
+    <requiredWorkTags><li>Violent</li></requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+      <li>MedievalKnight</li>
+    </spawnCategories>
+    <possessions>
+      <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Taster16</defName>
+    <title>taster</title>
+    <titleShort>taster</titleShort>
+    <description>As the food taster for a king, [PAWN_nameDef] sampled any dish served at the royal table. [PAWN_pronoun] lived a decadent lifestyle at court, growing fat and doing very little real work.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Cooking>7</Cooking>
+      <Construction>-4</Construction>
+      <Crafting>-4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <MealLavish>1</MealLavish>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Blacksmith72</defName>
+    <title>GTF_blacksmith</title>
+    <titleShort>blacksmith</titleShort>
+    <description>As a smith, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>-5</Shooting>
+      <Melee>4</Melee>
+      <Crafting>6</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+    <possessions>
+      <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
+    </possessions>
+  </BackstoryDef>
 </Defs>

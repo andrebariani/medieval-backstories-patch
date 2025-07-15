@@ -79,4 +79,254 @@ At first, [PAWN_pronoun] only took what [PAWN_pronoun] needed. Then [PAWN_pronou
       <li>MedievalRoyal</li>
     </spawnCategories>
   </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_StewardsAssisant28</defName>
+    <identifier>GTF_StewardsAssisant28</identifier>  
+    <slot>Childhood</slot>  
+    <title>Steward's assisant</title>  
+    <titleShort>Steward</titleShort>  
+    <description>A steward on a merchant ship, [PAWN_nameDef] was well-traveled on [PAWN_possessive] homeland by [PAWN_possessive] early teens.
+
+The constant orders from [PAWN_possessive] captain, however, fostered a defiant streak, as well as a general disaste for anything [PAWN_pronoun] considered to be busywork.</description>  
+    <skillGains>
+      <Melee>5</Melee>    
+      <Cooking>5</Cooking>    
+      <Artistic>-2</Artistic>
+    </skillGains>  
+    <workDisables>Hauling</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_MedievalNomad12</defName>
+    <identifier>GTF_MedievalNomad12</identifier>
+    <slot>Childhood</slot>
+    <title>nomad</title>
+    <titleShort>nomad</titleShort>
+    <description>Born to a nomadic family, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.
+
+[PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family.</description>
+    <skillGains>
+      <Social>2</Social>    
+      <Cooking>2</Cooking>
+      <Animals>2</Animals>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_AbandonedOrphan61</defName>  
+    <identifier>GTF_AbandonedOrphan61</identifier>  
+    <slot>Childhood</slot>  
+    <title>abandoned orphan</title>  
+    <titleShort>orphan</titleShort>  
+    <description>Abandoned at birth, young [PAWN_nameDef] started [PAWN_possessive] life in an orphanage.
+
+A rascal and a scoundrel, [PAWN_pronoun] became a clever troublemaker.</description>  
+    <skillGains>
+      <Plants>-3</Plants>    
+      <Shooting>2</Shooting>    
+      <Melee>3</Melee>    
+      <Social>2</Social>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_AdventurousYouth70</defName>
+    <identifier>GTF_AdventurousYouth70</identifier>  
+    <slot>Childhood</slot>  
+    <title>adventurous youth</title>  
+    <titleShort>adventurer</titleShort>  
+    <description>[PAWN_nameDef] explored all around [PAWN_possessive] family's large estate, uncovering little natural wonders hidden in nearby catacombs, rivers, and caves.
+
+During [PAWN_possessive] teenage years, [PAWN_nameDef] made numerous enemies</description>  
+    <skillGains>
+      <Melee>2</Melee>    
+      <Social>2</Social>    
+      <Cooking>2</Cooking>
+    </skillGains>  
+    <workDisables>Cleaning</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_RangerChild57</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>GTF_RangerChild57</identifier>  
+    <slot>Childhood</slot>  
+    <title>ranger child</title>  
+    <titleShort>ranger kid</titleShort>  
+    <description>[PAWN_nameDef] was raised in a forest. [PAWN_pronoun] was taught how hunt and live off the land, so that [PAWN_pronoun] could live without the need of others.
+
+Accustomed to manual labor and with an intuitive mind, [PAWN_nameDef] could survive weeks alone.</description>  
+    <skillGains>
+      <Mining>-2</Mining>    
+      <Shooting>2</Shooting>    
+      <Cooking>2</Cooking>    
+      <Animals>4</Animals>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Cooking</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_CaravanTraveler6</defName>
+    <identifier>GTF_CaravanTraveler6</identifier>  
+    <slot>Childhood</slot>  
+    <title>caravan traveler</title>  
+    <titleShort>traveler</titleShort>  
+    <description>Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food.</description>  
+    <skillGains>
+      <Plants>-3</Plants>    
+      <Shooting>1</Shooting>    
+      <Social>2</Social>    
+      <Animals>3</Animals>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Tinkerer11</defName>
+    <identifier>GTF_Tinkerer11</identifier>  
+    <slot>Childhood</slot>  
+    <title>tinkerer</title>  
+    <titleShort>tinkerer</titleShort>  
+    <description>[PAWN_nameDef] spent [PAWN_possessive] spare time creating things from [PAWN_possessive] imagination out of scrap metal and discarded machinery.
+
+[PAWN_pronoun] created simple robots and small tools, for both for fun and for utility.</description>  
+    <skillGains>
+      <Intellectual>3</Intellectual>    
+      <Melee>-2</Melee>    
+      <Crafting>3</Crafting>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_TraineeAlchemist64</defName>
+    <identifier>GTF_TraineeAlchemist64</identifier>  
+    <slot>Childhood</slot>  
+    <title>trainee alchemist</title>  
+    <titleShort>alchemist</titleShort>  
+    <description>[PAWN_nameDef] learned the basics of alchemy and medicine in one the few monastic schools on [PAWN_possessive] homeland.</description>  
+    <skillGains>
+      <Intellectual>3</Intellectual>    
+      <Cooking>4</Cooking>    
+      <Medicine>3</Medicine>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>Cooking</li>
+      <li>Caring</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_Abductee43</defName>
+    <identifier>GTF_Abductee43</identifier>  
+    <slot>Childhood</slot>  
+    <title>abductee</title>  
+    <titleShort>abductee</titleShort>  
+    <description>[PAWN_nameDef] was abducted at a young age and forced to do menial labor on a pirate ship.</description>  
+    <skillGains>
+      <Construction>2</Construction>    
+      <Melee>2</Melee>    
+      <Cooking>2</Cooking>    
+      <Crafting>2</Crafting>
+    </skillGains>  
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Cooking</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>GTF_MedievalSquire5</defName>
+    <identifier>GTF_MedievalSquire5</identifier>  
+    <slot>Childhood</slot>  
+    <title>medieval squire</title>  
+    <titleShort>squire</titleShort>  
+    <description>[PAWN_nameDef] grew up as a knight in training. [PAWN_pronoun] trained directly under the king's war adviser for most of [PAWN_possessive] youth, and learned to fight with many martial weapons.</description>  
+    <skillGains>
+      <Construction>-1</Construction>    
+      <Mining>-1</Mining>    
+      <Shooting>3</Shooting>    
+      <Melee>5</Melee>
+    </skillGains>  
+    <workDisables>Cooking, PlantWork</workDisables>  
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Medieval</li>
+      <li>MedievalKnight</li>
+      <li>MedievalHigh</li>
+      <li>MedievalRoyal</li>
+    </spawnCategories>
+  </BackstoryDef>
 </Defs>

@@ -144,7 +144,7 @@
     <slot>Adulthood</slot>
     <title>exiled researcher</title>
     <titleShort>exile</titleShort>
-    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled her, and [PAWN_pronoun] was never allowed to return.</description>
+    <description>[PAWN_nameDef]'s intellectual pursuits was not appreciated in [PAWN_possessive] instituition. The director expelled [PAWN_objective], and [PAWN_pronoun] was never allowed to return.</description>
     <skillGains>
       <Intellectual>8</Intellectual>
       <Shooting>2</Shooting>
