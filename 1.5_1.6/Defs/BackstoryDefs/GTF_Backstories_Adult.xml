@@ -502,8 +502,12 @@
       <Social>4</Social>
       <Crafting>3</Crafting>
     </skillGains>
-    <workDisables>ManualDumb</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
