@@ -417,18 +417,18 @@
   </BackstoryDef>
 
   <BackstoryDef>
-    <defName>MasterTrader65</defName>
-    <identifier>MasterTrader65</identifier>
+    <defName>GTF_MasterTrader65</defName>
+    <identifier>GTF_MasterTrader65</identifier>
     <slot>Adulthood</slot>
     <title>master trader</title>
     <titleShort>trader</titleShort>
-    <description>[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time.</description>
+    <description>[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] reputation by helping a village through a trying time.</description>
     <skillGains>
       <Social>8</Social>
       <Cooking>2</Cooking>
       <Artistic>4</Artistic>
     </skillGains>
-    <workDisables>Mining</workDisables>
+    <workDisables>None</workDisables>
     <requiredWorkTags>
       <li>Social</li>
       <li>Cooking</li>
@@ -478,7 +478,7 @@
       <Melee>4</Melee>
       <Medicine>2</Medicine>
     </skillGains>
-    <workDisables>Cleaning</workDisables>
+    <workDisables>None</workDisables>
     <requiredWorkTags>
       <li>Violent</li>
       <li>Caring</li>

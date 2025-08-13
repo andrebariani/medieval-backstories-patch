@@ -207,6 +207,19 @@
 								<bodyTypeFemale>Female</bodyTypeFemale>
 							</value>
 						</li>
+
+						<!-- Patching Castle Laundress -->
+						 <li Class="PatchOperationRemove">
+							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_CastleLaundress"]/bodyTypeGlobal</xpath>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>
+								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CastleLaundress"]</xpath>
+							<value>
+								<bodyTypeMale>Male</bodyTypeMale>
+								<bodyTypeFemale>Female</bodyTypeFemale>
+							</value>
+						</li>
 					</operations>
 				</match>
 			</li>
