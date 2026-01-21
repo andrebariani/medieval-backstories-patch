@@ -39,6 +39,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -270,6 +272,8 @@
     <possessions>
       <TextBook>1</TextBook>
     </possessions>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -289,6 +293,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -311,6 +317,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -319,7 +327,7 @@
     <slot>Adulthood</slot>
     <title>beast slayer</title>
     <titleShort>slayer</titleShort>
-    <description>[PAWN_nameDef] traveled between settlements, following news of animal attacks. [PAWN_pronoun] would camp out in the wild for weeks, learning about [PAWN_possessive] prey before striking. [PAWN_pronoun] most enjoyed hunting thrumbos.\n\nPreferring to work alone, [PAWN_nameDef] enjoyed the thrill of the hunt, and the meat from the kill.</description>
+    <description>[PAWN_nameDef] traveled between settlements, following news of animal attacks. [PAWN_pronoun] would camp out in the wild for weeks, learning about [PAWN_possessive] prey before striking. \n\nPreferring to work alone, [PAWN_nameDef] enjoyed the thrill of the hunt, and the meat from the kill.</description>
     <skillGains>
       <Plants>2</Plants>
       <Shooting>4</Shooting>
@@ -335,6 +343,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -361,6 +371,8 @@
     <possessions>
       <Meat_Thrumbo>10</Meat_Thrumbo>
     </possessions>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -386,6 +398,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -414,6 +428,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -438,6 +454,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -464,6 +482,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -487,6 +507,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -517,6 +539,8 @@
     <forcedTraits>
       <Industriousness>1</Industriousness>
     </forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -543,6 +567,8 @@
     <forcedTraits>
       <Nimble>0</Nimble>
     </forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -567,6 +593,8 @@
       <li>Medieval</li>
       <li>MedievalCommon</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -594,6 +622,8 @@
       <li>MedievalCommon</li>
       <li>MedievalKnight</li>
     </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -607,8 +637,8 @@
       <Melee>7</Melee>
       <Social>6</Social>
     </skillGains>
-    <workDisables>Cooking, Cleaning</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
+    <workDisables>None</workDisables>
+    <requiredWorkTags><li>Violent</li><li>Social</li></requiredWorkTags>
     <spawnCategories>
       <li>Medieval</li>
       <li>MedievalCommon</li>
@@ -619,6 +649,8 @@
     <possessions>
       <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
     </possessions>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -642,6 +674,8 @@
     <possessions>
       <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
     </possessions>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -697,5 +731,7 @@
     <possessions>
       <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
     </possessions>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 </Defs>
