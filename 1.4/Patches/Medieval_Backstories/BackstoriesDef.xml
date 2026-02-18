@@ -40,13 +40,13 @@
 						<li Class="PatchOperationReplace">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/title</xpath>
 							<value>
-								<title>Mad ruler</title>
+								<title>mad ruler</title>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
 							<xpath>Defs/BackstoryDef[defName="AssassinsBro_Medieval_MadQueen"]/titleShort</xpath>
 							<value>
-								<titleShort>King</titleShort>
+								<titleShort>king</titleShort>
 							</value>
 						</li>
 
@@ -96,14 +96,14 @@
 							<xpath>
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]/title</xpath>
 							<value>
-								<title>Tailor</title>
+								<title>tailor</title>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
 							<xpath>
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_Seamstress"]/titleShort</xpath>
 							<value>
-								<titleShort>Tailor</titleShort>
+								<titleShort>tailor</titleShort>
 							</value>
 						</li>
 						<li Class="PatchOperationRemove">
@@ -128,14 +128,14 @@
 							<xpath>
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_OrphanGirl"]/title</xpath>
 							<value>
-								<title>Orphan</title>
+								<title>orphan</title>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">
 							<xpath>
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_OrphanGirl"]/titleShort</xpath>
 							<value>
-								<titleShort>Orphan</titleShort>
+								<titleShort>orphan</titleShort>
 							</value>
 						</li>
 
@@ -157,7 +157,7 @@
 							<xpath>
 								Defs/BackstoryDef[defName="AssassinsBro_Medieval_CharitableNun"]/title</xpath>
 							<value>
-								<title>Charitable monk</title>
+								<title>charitable monk</title>
 							</value>
 						</li>
 						<li Class="PatchOperationReplace">

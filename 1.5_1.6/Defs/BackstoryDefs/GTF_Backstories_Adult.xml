@@ -2,7 +2,7 @@
 <Defs>
   <BackstoryDef>
     <defName>GTF_MedievalMinstrel95</defName>
-    <title>Wandering bard</title>
+    <title>wandering bard</title>
     <titleShort>bard</titleShort>
     <slot>Adulthood</slot>
     <baseDesc>[PAWN_nameDef] was a bard living out of performances.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road.</baseDesc>
