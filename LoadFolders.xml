@@ -7,14 +7,20 @@
   </v1.4>
   <v1.5>
     <li>/</li>
-    <li>1.5_1.6</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6/Mods/Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6/Patches/Core_Royalty</li>
+    <li>1.5_1.6_1.7</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Mods/Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Patches/Core_Royalty</li>
   </v1.5>
   <v1.6>
     <li>/</li>
-    <li>1.5_1.6</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6/Mods/Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6/Patches/Core_Royalty</li>
+    <li>1.5_1.6_1.7</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Mods/Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Patches/Core_Royalty</li>
   </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>1.5_1.6_1.7</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Mods/Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5_1.6_1.7/Patches/Core_Royalty</li>
+  </v1.7>
 </loadFolders>
